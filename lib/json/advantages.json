@@ -1,0 +1,784 @@
+{
+    "main": [
+        {
+            "name": "Achaz",
+            "description": "Du kannst mit deinem Schwanz waffenlose Angriffe in Reichweite 1 (siehe auch S. 38) durchführen. Allerdings leidest du unter Kältestarre; für jede Temperaturstufe unter normal (S. 35) sind alle körperlichen Proben um –4 erschwert.\nVoraussetzungen: üblicherweise nur von Achaz wählbar; 0 EP\nNachkauf: extrem selten",
+            "page": 28,
+            "xp": 0
+        },
+        {
+            "name": "Angepasst (Dunkelheit)",
+            "level": ["I", "II"],
+            "description": "Durch deine Spezies oder langjährige Erfahrung hast du dich an eine bestimmte Umgebung oder Umweltbedingung gewöhnt. Abzüge durch diese Umgebung (Beispiele auf S. 38), insbesondere im Kampf, sinken für dich um eine/zwei Stufen.Die Kosten für Angepasst legt der Spielleiter fest, wobei er sich an der Häufigkeit der Umgebung orientieren sollte. Zu allgemein gefasste Umgebungen wie „unsicherer Untergrund“ sollte er nicht zulassen.\n- Dunkelheit: verringert Abzüge durch schlechte Lichtverhältnisse (40 EP pro Stufe)\nVoraussetzungen: keine/Angepasst I",
+            "page": 28,
+            "xp": [40, 80]
+        },
+        {
+            "name": "Angepasst (Schnee)",
+            "level": ["I", "II"],
+            "description": "Durch deine Spezies oder langjährige Erfahrung hast du dich an eine bestimmte Umgebung oder Umweltbedingung gewöhnt. Abzüge durch diese Umgebung (Beispiele auf S. 38), insbesondere im Kampf, sinken für dich um eine/zwei Stufen.Die Kosten für Angepasst legt der Spielleiter fest, wobei er sich an der Häufigkeit der Umgebung orientieren sollte. Zu allgemein gefasste Umgebungen wie „unsicherer Untergrund“ sollte er nicht zulassen.\n-Schnee: verringert Abzüge durch schneebedeckten oder eisigen Untergrund (20 EP pro Stufe)\nVoraussetzungen: keine/Angepasst I",
+            "page": 28,
+            "xp": [20, 40]
+        },
+        {
+            "name": "Angepasst (Wasser)",
+            "level": ["I", "II"],
+            "description": "Durch deine Spezies oder langjährige Erfahrung hast du dich an eine bestimmte Umgebung oder Umweltbedingung gewöhnt. Abzüge durch diese Umgebung (Beispiele auf S. 38), insbesondere im Kampf, sinken für dich um eine/zwei Stufen.Die Kosten für Angepasst legt der Spielleiter fest, wobei er sich an der Häufigkeit der Umgebung orientieren sollte. Zu allgemein gefasste Umgebungen wie „unsicherer Untergrund“ sollte er nicht zulassen.\n-Wasser: verringert Abzüge durch knie- oder hüfttiefes Wasser und unter Wasser (20 EP pro Stufe)\nVoraussetzungen: keine/Angepasst I",
+            "page": 28,
+            "xp": [20, 40]
+        },
+        {
+            "name": "Angepasst ()",
+            "level": ["I", "II"],
+            "description": "Durch deine Spezies oder langjährige Erfahrung hast du dich an eine bestimmte Umgebung oder Umweltbedingung gewöhnt. Abzüge durch diese Umgebung (Beispiele auf S. 38), insbesondere im Kampf, sinken für dich um eine/zwei Stufen.Die Kosten für Angepasst legt der Spielleiter fest, wobei er sich an der Häufigkeit der Umgebung orientieren sollte. Zu allgemein gefasste Umgebungen wie „unsicherer Untergrund“ sollte er nicht zulassen.\n-Wald: verringert Abzüge durch Wurzeln, Gestrüpp und dichtes Unterholz (40 EP pro Stufe)\nVoraussetzungen: keine/Angepasst I",
+            "page": 28,
+            "xp": [40, 80]
+        },
+        {
+            "name": "Einkommen",
+            "level": ["I", "II", "III", "IV"],
+            "description": "Deine Familie, Organisation oder eine persönliche Mäzenin stellt dir ein monatliches Einkommen von 4/16/64/256 Dukaten zur Verfügung, die du beispielsweise über eine Filiale der Nordlandbank oder ein Ordenshaus beziehen kannst. Fern der Zivilisation kannst du nicht auf dein Einkommen zugreifen. Das Einkommen reicht aus, um die Lebenshaltungskosten eines Angehörigen der Unterschicht/ Mittelschicht/Oberschicht/Elite zu decken.\nVoraussetzungen: keine/Einkommen I/Einkommen II/ Einkommen III; 20 EP pro Stufe",
+            "page": 29,
+            "xp": [20, 40, 80, 120]
+        },
+        {
+            "name": "Eisenaffine Aura",
+            "description": "Malusse durch den Bann des Eisens (S. 78) sinken um 8 Punkte.\nVoraussetzungen: Zauberer I, 40 EP",
+            "page": 29,
+            "xp": 0
+        },
+        {
+            "name": "Gefahreninstinkt",
+            "description": "Mit der Gabe Gefahreninstinkt kannst du mit dem Talent Wachsamkeit auch Gefahren wahrnehmen, die mit gewöhnlichen Sinnen nicht wahrzunehmen sind. Dazu gehören etwa magische Fallen oder eine bald losbrechende Lawine. Ist die Gefahr auch mit gewöhnlichen Sinnen wahrnehmbar erhältst du eine Erleichterung von +4.\nVoraussetzungen: 100 EP",
+            "page": 29,
+            "xp": 100
+        },
+        {
+            "name": "Geweiht",
+            "level": ["I", "II", "III", "IV"],
+            "description": "Du verfügst über 8/16/24/32 Karmapunkte und kannst karmale Traditionen erlernen.\nVoraussetzungen: keine/Geweiht I/Geweiht II/Geweiht III; 40 EP pro Stufe",
+            "page": 29,
+            "xp": [40, 80, 120, 160],
+            "boni": {
+                "kap": [8, 16, 24, 32]
+            }
+        },
+        {
+            "name": "Glück",
+            "level": ["I", "II"],
+            "description": "Deine maximalen Schicksalspunkte steigen auf 5/6.\nVoraussetzungen: keine/Glück I; jede Stufe 40 EP",
+            "page": 29,
+            "xp": [40, 80]
+        },
+        {
+            "name": "Kreis der Verdammnis",
+            "level": ["I", "II", "III", "IV", "V", "VI", "VII"],
+            "description": "Der Vorteil hat vier Auswirkungen. Erstens erhältst du beim Erwerb der ersten Stufe 400 EP, für jede weitere Stufe 200 EP. Zweitens werden deine Gunstpunkte (S. 93) sofort aufgefüllt. Drittens erhältst du für jede Stufe eine verdorbene Eigenheit (S. 92). Viertens entwickelst du ein Dämonenmal und kannst über die Liturgie Seelenprüfung als Paktierer erkannt werden. Auf geweihtem/heiligen Boden musst du jede Minute eine Willensstärke-Probe (20/28) ablegen, um nicht durch starke Schmerzen aufzufallen und eine Wunde zu erleiden.\nVoraussetzungen: 0 EP pro Stufe",
+            "page": 29,
+            "xp": [-400, -600, -800, -100, -1200, -1400, -1600]
+        },
+        {
+            "name": "Magieabweisend",
+            "description": "Zauber wirken auf dich deutlich schwächer. Du ignorierst bei allen Zaubern eine Stufe der spontanen Modifikation Mächtige Magie. Zauber ohne Mächtige Magie haben auf dich keine Wirkung.\nVoraussetzung: 40 EP",
+            "page": 29,
+            "xp": 40
+        },
+        {
+            "name": "Magiegespür",
+            "description": "In der Nähe astraler Kräfte überfällt dich ein Frösteln, du hörst sphärische Klänge oder ein Farbschleier legt sich für dich über die Umgebung. Mit dem Talent Sinnenschärfe kannst du Intensitätsanalysen (S. 80) von magischen Gegenständen durchführen. Nach dem aktiven Einsatz der Gabe erleidest du einen Punkt Erschöpfung.\nVoraussetzungen: 60 EP",
+            "page": 29,
+            "xp": 60
+        },
+        {
+            "name": "Natürliche Rüstung",
+            "description": "Du verfügst über dichtes Fell oder zähe Schuppenhaut, wodurch dein RS um 1 steigt. Die BE verändert sich dadurch nicht.\nVoraussetzungen: üblicherweise nur von Achaz, Orks oder ähnlichen Spezies wählbar; 80 EP",
+            "page": 29,
+            "xp": 80,
+            "boni": {
+                "rs": 1
+            }
+        },
+        {
+            "name": "Paktierer",
+            "level": ["I", "II", "III", "IV"],
+            "description": "Du verfügst über 8/16/24/32 Gunstpunkte und kannst die dämonische Tradition deines Erzdämons erlernen.\nVoraussetzungen: Kreis der Verdammnis I/Paktierer I/ Paktierer II/Paktierer III; 40 EP pro Stufe",
+            "page": 29,
+            "xp": [40, 80, 120, 160],
+            "boni": {
+                "gup": [8, 16, 24, 32]
+            }
+        },
+        {
+            "name": "Prophezeien",
+            "description": "Du kannst das Talent Willenskraft nutzen, um mit Spielkarten, Würfeln, Astrologie, Drogen oder prophetischen Träumen einen vagen und meist mehrdeutigen Blick in die Zukunft zu werfen. Nach dem Einsatz der Gabe erleidest du einen Punkt Erschöpfung.\nVoraussetzungen: 40 EP",
+            "page": 30,
+            "xp": 40
+        },
+        {
+            "name": "Resistenz/Immunität gegen Gifte - ",
+            "level": ["Resistenz", "Immunität"],
+            "description": "Resistenz mildert die Auswirkungen von Giften (S. 34), mit Immunität sind Gifte gegen dich wirkungslos.\nVoraussetzungen: keine/Resistenz gegen Gifte; 40 EP pro Stufe",
+            "page": 30,
+            "xp": [40, 80]
+        },
+        {
+            "name": "Resistenz/Immunität gegen Krankheiten - ",
+            "level": ["Resistenz", "Immunität"],
+            "description": "Resistenz mildert die Auswirkungen von Krankheiten (S. 35), mit Immunität erkrankst du niemals.\nVoraussetzungen: keine/Resistenz gegen Krankheiten; 20 EP pro Stufe",
+            "page": 30,
+            "xp": [40, 80]
+        },
+        {
+            "name": "Resistenz gegen Kälte",
+            "description": "Verschiebt die Temperaturstufe (S. 35) bei niedrigen Temperaturen um eine Stufe in Richtung normal.\nVoraussetzungen: jeder Vorteil 40 EP",
+            "page": 30,
+            "xp": 40
+        },
+        {
+            "name": "Resistenz gegen Hitze",
+            "description": "Verschiebt die Temperaturstufe (S. 35) bei hohen Temperaturen um eine Stufe in Richtung normal.\nVoraussetzungen: jeder Vorteil 40 EP",
+            "page": 30,
+            "xp": 40
+        },
+        {
+            "name": "Zauberer",
+            "level": ["I", "II", "III", "IV"],
+            "description": "Du verfügst über 8/16/24/32 Astralpunkte und kannst magische Traditionen erlernen. Dämonen, Elementare oder Hellsichtsmagier können dich magisch wahrnehmen. Zauberer I entspricht dabei einem einfachen Magiedilettanten, Zauberer II einer wenig begabten Alchemistin. Die meisten ausgebildeten Zauberer verfügen dagegen über Zauberer III oder IV.\nVoraussetzungen: keine/Zauberer I/Zauberer II/Zauberer III; 40 EP pro Stufe",
+            "page": 30,
+            "xp": [40, 80, 120, 160],
+            "boni": {
+                "asp": [8, 16, 24, 32]
+            }
+        },
+        {
+            "name": "Zwergennase",
+            "description": "Mit Zwergennase besitzt du einen übernatürlich guten Riecher für Verstecke, Geheimgänge und mechanische Fallen. Du kannst sie mit dem Talent Wachsamkeit wahrnehmen, auch wenn das mit gewöhnlichen Sinnen unmöglich wäre. Ist das Objekt auch mit gewöhnlichen Sinnen wahrnehmbar, erhältst du eine Erleichterung von +4.\nVoraussetzungen: 60 EP",
+            "page": 30,
+            "xp": 60
+        }
+    ],
+    "mainBoni": [
+        {
+            "id": "asp",
+            "name": "Astralpunkte"
+        },
+        {
+            "id": "kap",
+            "name": "Karmapunkte"
+        },
+        {
+            "id": "gup",
+            "name": "Gunstpunkte"
+        },
+        {
+            "id": "rs",
+            "name": "Rüstungschutz"
+        },
+        {
+            "id": "ini",
+            "name": "Initiative"
+        },
+        {
+            "id": "ws",
+            "name": "Wundschwelle"
+        },
+        {
+            "id": "mr",
+            "name": "Magieresistenz"
+        },
+        {
+            "id": "gs",
+            "name": "Geschwindigkeit"
+        },
+        {
+            "id": "sb",
+            "name": "Schadensbonus"
+        }
+    ],
+    "profan": [
+        {
+            "name": "Eindrucksvoll I",
+            "description": "In Rededuellen sind Proben auf Betören und Einschüchtern um +2 erleichtert.\n\nVoraussetzung: CH > 4, 20 EP",
+            "attribute": "ch",
+            "minValue": 4,
+            "xp": 20
+        },
+        {
+            "name": "Eindrucksvoll II",
+            "description": "In Rededuellen sind Proben auf Betören und Einschüchtern um +2 erleichtert.\n\nBei Proben auf Betören, Einschüchtern und Gebräuche gelten Patzer als gewöhnlich misslungen, außer sie entstehen durch eine ungewohnte Umgebung (S. 55).\n\nVoraussetzung: CH > 6, 40 EP",
+            "attribute": "ch",
+            "minValue": 6,
+            "xp": 40
+        },
+        {
+            "name": "Soziale Anpassungsfähigkeit",
+            "description": "Du bist immun gegen alle Auswirkungen durch ungewohnte Umgebung (S. 55).\n\nVoraussetzung: CH > 8, 60 EP",
+            "attribute": "ch",
+            "minValue": 8,
+            "xp": 60
+        },
+        {
+            "name": "Starke Aura",
+            "description": "Während eines Rededuells kannst du eine CH-Probe gegen die Willenskraft deines Gegenübers ablegen. Wenn die Probe gelingt, kannst du eine Probe in diesem Rededuell wiederholen.\n\nVoraussetzung: CH > 10, 80 EP",
+            "attribute": "ch",
+            "minValue": 10,
+            "xp": 80
+        },
+        {
+            "name": "Routiniert I",
+            "description": "Die Dauer zur Fertigung handwerklicher Produkte, zur Wundversorgung und zum Schlösser knacken verkürzt sich um ein Viertel des unmod. Werts.\n\nVoraussetzung: FF > 4, 20 EP",
+            "attribute": "ff",
+            "minValue": 4,
+            "xp": 20
+        },
+        {
+            "name": "Routiniert II",
+            "description": "Die Dauer zur Fertigung handwerklicher Produkte, zur Wundversorgung und zum Schlösser knacken verkürzt sich um ein weiteres Viertel des unmodifizierten Werts. Bei Proben auf Alchemie, Handwerk, Heilkunde, und Verschlagenheit gelten Patzer als gewöhnlich misslungen.\n\nVoraussetzung: FF > 6, 40 EP",
+            "attribute": "ff",
+            "minValue": 6,
+            "xp": 40
+        },
+        {
+            "name": "Improvisation",
+            "description": "Unzureichendes Werkzeug oder minderwertige Verbrauchsmaterialien gelten um eine Stufe höher.\n\nVoraussetzung: FF > 8, 60 EP",
+            "attribute": "ff",
+            "minValue": 8,
+            "xp": 60
+        },
+        {
+            "name": "Meisterwerk",
+            "description": "Mit hervorragenden Materialien und dem doppelten Zeitaufwand kannst du ein Meisterwerk schaffen. Dieses erhält zusätzlich 2x die Modifikation hohe Qualität und verbesserte Eigenschaften nach Meisterentscheid. Solche Werke sind extrem selten und Gegenstand von Sagen und Legenden. Der Vorteil kann nur mit Fertigkeiten mit einem unmod. Probenwert von mindestens 16 angewandt werden.\n\nVoraussetzung: FF > 10, 80 EP",
+            "attribute": "ff",
+            "minValue": 10,
+            "xp": 80
+        },
+        {
+            "name": "Flink I",
+            "description": "GS +1\n\nVoraussetzung: GE > 4, 20 EP",
+            "attribute": "ge",
+            "minValue": 4,
+            "xp": 20,
+            "boni": {
+                "gs": 1
+            }
+        },
+        {
+            "name": "Flink II",
+            "description": "GS +1\n\nBei Athletikproben gelten Patzer als gewöhnlich misslungen.\n\nVoraussetzung: GE > 6, 40 EP",
+            "attribute": "ge",
+            "minValue": 6,
+            "xp": 40,
+            "boni": {
+                "gs": 1
+            }
+        },
+        {
+            "name": "Katzenhaft",
+            "description": "Erschwernisse durch unsicheren Untergrund sinken um eine Stufe und gegen den Schaden aus Stürzen, Zusammenstößen usw. kannst du deine GE als WS verwenden.\n\nVoraussetzung: GE > 8, 60 EP",
+            "attribute": "ge",
+            "minValue": 8,
+            "xp": 60
+        },
+        {
+            "name": "Körperbeherrschung",
+            "description": "Du kannst Nah- oder Fernkampfangriffen, elementaren Schadenszaubern oder ähnlichen Schadensquellen mit einer GE-Gegenprobe entgehen. Der Einsatz von Körperbeherrschung wird angesagt, nachdem übliche Verteidigungsmöglichkeiten (wie eine Verteidigung) versagt haben, aber bevor der Schaden bestimmt wird. Anschließend erleidest du einen Punkt Erschöpfung.\n\nVoraussetzung: GE > 8, 60 EP",
+            "attribute": "ge",
+            "minValue": 10,
+            "xp": 80
+        },
+        {
+            "name": "Vorausschauend I",
+            "description": "In Rededuellen sind Proben auf Rhetorik und Überreden um +2 erleichtert.\n\nVoraussetzung: IN > 4, 20 EP",
+            "attribute": "in",
+            "minValue": 4,
+            "xp": 20
+        },
+        {
+            "name": "Vorausschauend II",
+            "description": "In Rededuellen sind Proben auf Rhetorik und Überreden um +2 erleichtert.\n\nVoraussetzung: IN > 6, 40 EP",
+            "attribute": "in",
+            "minValue": 6,
+            "xp": 40
+        },
+        {
+            "name": "Bedächtig",
+            "description": "Wenn du in einem Rededuell abwartest, ist deine Probe um +4 erleichtert.\n\nVoraussetzung: IN > 8, 60 EP",
+            "attribute": "in",
+            "minValue": 8,
+            "xp": 60
+        },
+        {
+            "name": "Empathie",
+            "description": "Du kannst eine IN-Probe gegen die Willenskraft deines Gegenübers ablegen. Wenn die Probe gelingt, erfährst du eine seiner Schwächen (S. 16). Eine einmal abgelegte Probe, egal ob ge- oder misslungen, kannst du nur wiederholen, wenn du das Gegenüber besser kennengelernt hast.\n\nVoraussetzung: IN > 10, 80 EP",
+            "attribute": "in",
+            "minValue": 10,
+            "xp": 80
+        },
+        {
+            "name": "Zerstörerisch I",
+            "description": "Proben zum Zerstören oder Durchbrechen von Gegenständen sind um +4 erleichtert.\n\nVoraussetzung: KK > 4, 20 EP",
+            "attribute": "kk",
+            "minValue": 4,
+            "xp": 20
+        },
+        {
+            "name": "Zerstörerisch II",
+            "description": "Proben zum Zerstören oder Durchbrechen von Gegenständen sind um +4 erleichtert.\n\nErlaubt das Manöver Hammerschlag gegen Gegenstände. Bei waffenlosen Angriffen gegen Gegenstände verletzt du dich normalerweise nicht.\n\nVoraussetzung: KK > 6, 40 EP",
+            "attribute": "kk",
+            "minValue": 6,
+            "xp": 40
+        },
+        {
+            "name": "Muskelprotz",
+            "description": "Einschüchtern-Proben im Kampf sind um +4 erleichtert und du kannst ohne zusätzliche Erschwernis bis zu 4 Gegner einschüchtern.\n\nVoraussetzung: KK > 8, 60 EP",
+            "attribute": "kk",
+            "minValue": 8,
+            "xp": 60
+        },
+        {
+            "name": "Adrenalinschub",
+            "description": "Du kannst dir eine Probe bei einer körperlichen Tätigkeit (z.B. Schmieden, Laufen, Nahkampfangriff) um +4 erleichtern. Anschließend erleidest du einen Punkt Erschöpfung.\n\nVoraussetzung: KK > 10, 80 EP",
+            "attribute": "kk",
+            "minValue": 10,
+            "xp": 80
+        },
+        {
+            "name": "Scharfsinnig I",
+            "description": "Proben bei einer Ermittlung oder Recherche sind um +2 erleichtert.\n\nVoraussetzung: KL > 4, 20 EP",
+            "attribute": "kl",
+            "minValue": 4,
+            "xp": 20
+        },
+        {
+            "name": "Scharfsinnig II",
+            "description": "Proben bei einer Ermittlung oder Recherche sind um +2 erleichtert.\n\nBei Recherchen erhältst du einen zusätzlichen Informationsgrad, wenn der gewertete Würfel eine 12 oder höher zeigt.\n\nVoraussetzung: KL > 6, 40 EP",
+            "attribute": "kl",
+            "minValue": 6,
+            "xp": 40
+        },
+        {
+            "name": "Vorbereitung",
+            "description": "Du kannst Proben auf profane Fertigkeiten besonders sorgfältig vorbereiten (sofern Vorbereitung sinnvoll ist). Wenn du die doppelte notwendige Zeit aufwendest, erhältst du +4 Punkte Erleichterung.\n\nVoraussetzung: KL > 8, 60 EP",
+            "attribute": "kl",
+            "minValue": 8,
+            "xp": 60
+        },
+        {
+            "name": "Eingebung",
+            "description": "Pro Abenteuer kannst du den Spielleiter W3 mal um einen Tipp bitten. Diese Tipps sollen nicht das Abenteuer lösen, können dich aber auf Fehler in deinem Plan oder bisher übersehene Aspekte oder Zusammenhänge aufmerksam machen.\n\nVoraussetzung: KL > 10, 80 EP",
+            "attribute": "kl",
+            "minValue": 10,
+            "xp": 80
+        },
+        {
+            "name": "Abgehärtet I",
+            "description": "Proben zur Abwehr von Giften und Krankheiten sind um +4 erleichtert.\n\nVoraussetzung: KO > 4, 20 EP",
+            "attribute": "ko",
+            "minValue": 4,
+            "xp": 20
+        },
+        {
+            "name": "Abgehärtet II",
+            "description": "Proben zur Abwehr von Giften und Krankheiten sind um weitere +4 erleichtert und das Durchhaltevermögen (S. 19) steigt um 2.\n\nVoraussetzung: KO > 6, 40 EP",
+            "attribute": "ko",
+            "minValue": 6,
+            "xp": 40
+        },
+        {
+            "name": "Schnelle Heilung",
+            "description": "Du regenerierst 2 Wunden pro durchschlafener Nacht und immer noch 1 Wunde, wenn die Schlafphase unterbrochen wurde.\n\nVoraussetzung: KO > 8, 60 EP",
+            "attribute": "ko",
+            "minValue": 8,
+            "xp": 60
+        },
+        {
+            "name": "Unverwüstlich",
+            "description": "WS +1\n\nWenn Zähigkeitsproben zum Ignorieren von Kampfunfähigkeit misslingen, erleidest du keine Erschöpfung.\n\nVoraussetzung: KO > 10, 80 EP",
+            "attribute": "ko",
+            "minValue": 10,
+            "xp": 80
+        },
+        {
+            "name": "Willensstark I",
+            "description": "MR +4\n\nVoraussetzung: MU > 4, 20 EP",
+            "attribute": "mu",
+            "minValue": 4,
+            "xp": 20,
+            "boni": {
+                "mr": 4
+            }
+        },
+        {
+            "name": "Willensstark II",
+            "description": "MR +4\n\nAuf dich wirkende Furcht-Effekte (S. 46) zählen als eine Stufe niedriger.\n\nVoraussetzung: MU > 6, 40 EP",
+            "attribute": "mu",
+            "minValue": 6,
+            "xp": 40,
+            "boni": {
+                "mr": 4
+            }
+        },
+        {
+            "name": "Geisterpanzer",
+            "description": "Gegen direkten Schaden aus Zaubern wie Fulminictus, Ignisphaero oder Hexengalle kannst du deinen MU als WS verwenden.\n\nVoraussetzung: MU > 8, 60 EP",
+            "attribute": "mu",
+            "minValue": 8,
+            "xp": 60
+        },
+        {
+            "name": "Unbeugsamkeit",
+            "description": "Magieresistenz +MU/2\n\nMit einer Aktion Konflikt und einer Konterprobe (MU, 16, siehe S. 122) kannst du einen auf dir liegenden Zauber abschütteln. Anschließend erleidest du einen Punkt Erschöpfung.\n\nVoraussetzung: MU > 10, 80 EP",
+            "attribute": "mu",
+            "minValue": 10,
+            "xp": 80,
+            "boni": {
+                "mr": {
+                    "attribute": "mu",
+                    "divider": 2
+                }
+            }
+        }
+    ],
+    "profanBoni": [
+        {
+            "id": "asp",
+            "name": "Astralpunkte"
+        },
+        {
+            "id": "kap",
+            "name": "Karmapunkte"
+        },
+        {
+            "id": "gup",
+            "name": "Gunstpunkte"
+        },
+        {
+            "id": "rs",
+            "name": "Rüstungschutz"
+        },
+        {
+            "id": "ini",
+            "name": "Initiative"
+        },
+        {
+            "id": "ws",
+            "name": "Wundschwelle"
+        },
+        {
+            "id": "mr",
+            "name": "Magieresistenz"
+        },
+        {
+            "id": "gs",
+            "name": "Geschwindigkeit"
+        },
+        {
+            "id": "sb",
+            "name": "Schadensbonus"
+        }
+    ],
+    "fightAdv": [
+        {
+            "name": "Kommando: Haltet Stand!",
+            "description": "Furcht-Effekte für Mitstreiter zählen als eine Stufe niedriger (für den Einsatz von Kommandos siehe S. 46).\n\nVoraussetzung: CH > 4, 20 EP",
+            "attribute": "ch",
+            "minValue": 4,
+            "xp": 20
+        },
+        {
+            "name": "Kommando: Formiert euch!",
+            "description": "+1 VT für alle Mitstreiter\n\nVoraussetzung: CH > 6, 40 EP",
+            "attribute": "ch",
+            "minValue": 6,
+            "xp": 40
+        },
+        {
+            "name": "Kommando: Keine Gefangenen!",
+            "description": "+2 TP für alle Mitstreiter\n\nVoraussetzung: CH > 8, 60 EP",
+            "attribute": "ch",
+            "minValue": 8,
+            "xp": 60
+        },
+        {
+            "name": "Kommando: Kennt keinen Schmerz!",
+            "description": "+1 WS für alle Mitstreiter\n\nVoraussetzung: CH > 10, 80 EP",
+            "attribute": "ch",
+            "minValue": 10,
+            "xp": 80
+        },
+        {
+            "name": "Ruhige Hand",
+            "description": "Verdoppelt im Fernkampf den Bonus durch Zielen.\n\nVoraussetzung: FF > 4, 20 EP",
+            "attribute": "ff",
+            "minValue": 4,
+            "xp": 20
+        },
+        {
+            "name": "Reflexschuss",
+            "description": "Im Fernkampf sinken Abzüge durch Bewegung oder Wind um eine Stufe.\n\nVoraussetzung: FF > 6, 40 EP",
+            "attribute": "ff",
+            "minValue": 6,
+            "xp": 40
+        },
+        {
+            "name": "Schnellziehen",
+            "description": "Erlaubt das Manöver Schnellschuss (S. 46) im Fernkampf. Nahkampf- und Wurfwaffen können in einer Freien Aktion gezogen werden.\n\nVoraussetzung: FF > 8, 60 EP",
+            "attribute": "ff",
+            "minValue": 8,
+            "xp": 60
+        },
+        {
+            "name": "Meisterschuss",
+            "description": "Erlaubt das Manöver Meisterschuss (S. 46) im Fernkampf.\n\nVoraussetzung: FF > 10, 80 EP",
+            "attribute": "ff",
+            "minValue": 10,
+            "xp": 80
+        },
+        {
+            "name": "Standfest",
+            "description": "Nach einem Sturz befindest du dich in kniender statt liegender Position.\n\nVoraussetzung: GE > 4, 20 EP",
+            "attribute": "ge",
+            "minValue": 4,
+            "xp": 20
+        },
+        {
+            "name": "Sturmangriff",
+            "description": "Erlaubt das Manöver Sturmangriff.\n\nVoraussetzung: GE > 6, 40 EP",
+            "attribute": "ge",
+            "minValue": 6,
+            "xp": 40
+        },
+        {
+            "name": "Todesstoß",
+            "description": "Erlaubt das Manöver Todesstoß.\n\nVoraussetzung: GE > 8, 60 EP",
+            "attribute": "ge",
+            "minValue": 8,
+            "xp": 60
+        },
+        {
+            "name": "Präzision",
+            "description": "Zeigt der gewertete Würfel bei einem Angriff eine 16 oder höher, richtet der Angriff GE TP zusätzlich an.\n\nVoraussetzung: GE > 10, 80 EP",
+            "attribute": "ge",
+            "minValue": 10,
+            "xp": 80
+        },
+        {
+            "name": "Kampfreflexe",
+            "description": "INI +4\n\nVoraussetzung: IN > 4, 20 EP",
+            "attribute": "in",
+            "minValue": 4,
+            "xp": 20,
+            "boni": {
+                "ini": 4
+            }
+        },
+        {
+            "name": "Defensiver Kampfstil",
+            "description": "Volle Defensive (S. 36) ist für dich eine einfache Aktion. Dadurch könntest du beispielsweise zusätzlich die Aktion Konflikt wählen, um eine AT –4 ausführen.\n\nVoraussetzung: IN > 6, 40 EP",
+            "attribute": "in",
+            "minValue": 6,
+            "xp": 40
+        },
+        {
+            "name": "Aufmerksamkeit",
+            "description": "Misslingt deinem Gegner eine Verteidigung gegen dich, die mit einem Manöver verstärkt wurde, darfst du sofort einen Passierschlag gegen ihn ausführen. Passierschläge gegen dich sind um –4 erschwert.\n\nVoraussetzung: IN > 8, 60 EP",
+            "attribute": "in",
+            "minValue": 8,
+            "xp": 60
+        },
+        {
+            "name": "Klingentanz",
+            "description": "Erlaubt das Manöver Klingentanz.\n\nVoraussetzung: IN > 10, 80 EP",
+            "attribute": "in",
+            "minValue": 10,
+            "xp": 80
+        },
+        {
+            "name": "Niederwerfen",
+            "description": "Erlaubt das Manöver Niederwerfen.\n\nVoraussetzung: KK > 4, 20 EP",
+            "attribute": "kk",
+            "minValue": 4,
+            "xp": 20
+        },
+        {
+            "name": "Waffenloser Kampf",
+            "description": "Deine unbewaffneten Angriffe erhalten die Waffeneigenschaften Kopflastig und Wendig (S. 47).\n\nVoraussetzung: KK > 6, 40 EP",
+            "attribute": "kk",
+            "minValue": 6,
+            "xp": 40
+        },
+        {
+            "name": "Hammerschlag",
+            "description": "Erlaubt das Manöver Hammerschlag.\n\nVoraussetzung: KK > 8, 60 EP",
+            "attribute": "kk",
+            "minValue": 8,
+            "xp": 60
+        },
+        {
+            "name": "Unaufhaltsam",
+            "description": "Selbst bei einer gelungenen gegnerischen Verteidigung, die nicht mit dem Manöver Ausweichen verstärkt wurde, richtest du halben Schaden an. Manövereffekte wirken weiterhin nur bei gelungenen Attacken.\n\nVoraussetzung: KK > 10, 80 EP",
+            "attribute": "kk",
+            "minValue": 10,
+            "xp": 80
+        },
+        {
+            "name": "Zäher Hund",
+            "description": "Blutungen drohen nur alle 2 x WS Initiativephasen, eine Wunde anzurichten.\n\nVoraussetzung: KO > 4, 20 EP",
+            "attribute": "ko",
+            "minValue": 4,
+            "xp": 20
+        },
+        {
+            "name": "Rüstungsgewöhnung",
+            "description": "Die BE aller Rüstungen ist um 1 gesenkt.\n\nVoraussetzung: KO > 6, 40 EP",
+            "attribute": "ko",
+            "minValue": 6,
+            "xp": 40
+        },
+        {
+            "name": "Eisern",
+            "description": "Wundschmerzeffekte treten bei dir erst ab drei Wunden auf einen Schlag auf.\n\nVoraussetzung: KO > 8, 60 EP",
+            "attribute": "ko",
+            "minValue": 8,
+            "xp": 60
+        },
+        {
+            "name": "Verbesserte Rüstungsgewöhnung",
+            "description": "Die BE aller Rüstungen ist um weitere 2 gesenkt. (Wenn du auch Rüstungsgewöhnung I gekauft hast, also um insgesamt 3 Punkte.)\n\nVoraussetzung: KO > 10, 80 EP",
+            "attribute": "ko",
+            "minValue": 10,
+            "xp": 80
+        },
+        {
+            "name": "Ausfall",
+            "description": "Erlaubt das Manöver Ausfall.\n\nVoraussetzung: MU > 4, 20 EP",
+            "attribute": "mu",
+            "minValue": 4,
+            "xp": 20
+        },
+        {
+            "name": "Offensiver Kampfstil",
+            "description": "Der Verteidigungs-Malus durch volle Offensive sinkt auf –4.\n\nVoraussetzung: MU > 6, 40 EP",
+            "attribute": "mu",
+            "minValue": 6,
+            "xp": 40
+        },
+        {
+            "name": "Gegenhalten",
+            "description": "Wenn du eine Attacke abwehrst, die mit einem Manöver verstärkt wurde, darfst du sofort einen Passierschlag gegen den Angreifer ausführen.\n\nVoraussetzung: MU > 8, 60 EP",
+            "attribute": "mu",
+            "minValue": 8,
+            "xp": 60
+        },
+        {
+            "name": "Kalte Wut",
+            "description": "Der Charakter kann sich im Kampf in kalte Wut versetzen und Wundabzüge ignorieren.\n\nVoraussetzung: MU > 10, 80 EP",
+            "attribute": "mu",
+            "minValue": 10,
+            "xp": 80
+        }
+    ],
+    "fightAdvBoni": [
+        {
+            "id": "asp",
+            "name": "Astralpunkte"
+        },
+        {
+            "id": "kap",
+            "name": "Karmapunkte"
+        },
+        {
+            "id": "gup",
+            "name": "Gunstpunkte"
+        },
+        {
+            "id": "rs",
+            "name": "Rüstungschutz"
+        },
+        {
+            "id": "ini",
+            "name": "Initiative"
+        },
+        {
+            "id": "ws",
+            "name": "Wundschwelle"
+        },
+        {
+            "id": "mr",
+            "name": "Magieresistenz"
+        },
+        {
+            "id": "gs",
+            "name": "Geschwindigkeit"
+        },
+        {
+            "id": "sb",
+            "name": "Schadensbonus"
+        }
+    ],
+    "fightStyles": [
+        {
+            "name": "Beidhändiger Kampf",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "ge",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "description": "Stufe I:\n+1 AT\n\nStufe 2:\n+1 AT\nDeine zweite Waffe ignoriert die üblichen Erschwernisse für Nebenwaffen (S. 39). Damit kannst du den vollen Nutzen aus zwei unterschiedlichen Waffen ziehen. Falls du dennoch zwei identische Waffen nutzt, kannst du einen (weiteren) Passierschlag zwischen zwei INI-Phasen als Freie Reaktion ausführen.\n\nStufe 3:\n+1 AT\nErlaubt das Manöver Doppelangriff\n\nStufe 4:\n8 Punkte können zur Verbesserung des Kampfstils verwendet werden.",
+            "boni": [null, null, null, {"skills": 8}]
+        },
+        {
+            "name": "Kraftvoller Kampf",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "kk",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "description": "Stufe 1:\n+1 Waffenschaden\n\nStufe 2:\n+1 Waffenschaden\nDu kannst in eine Halbschwertstellung wechseln, um deine Waffe in einer um eins kleineren Reichweite zu führen. Der Wechsel in die Stellung oder zurück geschieht in einer Freien Aktion.\n\nStufe 3:\n+1 Waffenschaden\nErlaubt das Manöver Befreiungsschlag.\n\nStufe 4:\n8 Punkte können zur Verbesserung des Kampfstils verwendet werden.",
+            "boni": [null, null, null, {"skills": 8}]
+        },
+        {
+            "name": "Parierwaffenkampf",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "ge",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "description": "Stufe 1:\nDu kannst gegen humanoide Gegner –1 Erschwernis aus Manövern ignorieren.\n\nStufe 2:\nDu kannst gegen humanoide Gegner –1 Erschwernis aus Manövern ignorieren. Deine Parierwaffe ignoriert die üblichen Erschwernisse für Nebenwaffen (S. 39). Wenn ideale Kampfbedingungen herrschen – du also keine Erschwernisse durch Position, Untergrund und Licht erleidest – befindest du dich in vorteilhafter Position (S. 38).\n\nStufe 3:\nDu kannst gegen humanoide Gegner –1 Erschwernis aus Manövern ignorieren. Erlaubt das Manöver Riposte.\n\nStufe 4:\n8 Punkte können zur Verbesserung des Kampfstils verwendet werden.",
+            "boni": [null, null, null, {"skills": 8}]
+        },
+        {
+            "name": "Reiterkampf(GE)",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "ge",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "description": "Stufe 1:\n+1 AT, VT, Waffenschaden\nErlaubt das Manöver Sturmangriff mit dem Reittier.\n\nStufe 2:\n+1 AT, VT, Waffenschaden\nDein Reittier ignoriert die üblichen Erschwernisse für Nebenwaffen (S. 39). Außerdem werden Reiten-AT und VT nicht durch die BE modifiziert und im Fernkampf ignorierst du den Malus für berittene Schützen (S. 46).\n\nStufe 3:\n+1 AT, VT, Waffenschaden\nErlaubt das Manöver Überrennen mit dem Reittier.\n\nStufe 4:\n8 Punkte können zur Verbesserung des Kampfstils verwendet werden.",
+            "boni": [null, null, null, {"skills": 8}]
+        },
+        {
+            "name": "Reiterkampf(KK)",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "kk",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "description": "Stufe 1:\n+1 AT, VT, Waffenschaden\nErlaubt das Manöver Sturmangriff mit dem Reittier.\n\nStufe 2:\n+1 AT, VT, Waffenschaden\nDein Reittier ignoriert die üblichen Erschwernisse für Nebenwaffen (S. 39). Außerdem werden Reiten-AT und VT nicht durch die BE modifiziert und im Fernkampf ignorierst du den Malus für berittene Schützen (S. 46).\n\nStufe 3:\n+1 AT, VT, Waffenschaden\nErlaubt das Manöver Überrennen mit dem Reittier.\n\nStufe 4:\n8 Punkte können zur Verbesserung des Kampfstils verwendet werden.",
+            "boni": [null, null, null, {"skills": 8}]
+        },
+        {
+            "name": "Schildkampf",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "kk",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "description": "Stufe 1:\n+1 VT\n\nStufe 2:\n+1 VT\nDein Schild ignoriert die üblichen Erschwernisse für Nebenwaffen (S. 39). Außerdem kannst du die erste VT zwischen zwei Initiativephasen als Freie Reaktion ausführen.\n\nStufe 3:\n+1 VT\nErlaubt das Manöver Schildwall.\n\nStufe 4:\n8 Punkte können zur Verbesserung des Kampfstils verwendet werden.",
+            "boni": [null, null, null, {"skills": 8}]
+        },
+        {
+            "name": "Schneller Kampf",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "ge",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "description": "Stufe 1:\n+1 AT\n\nStufe 2:\n+1 AT\nDu kannst in eine Halbschwertstellung wechseln, um deine Waffe in einer um 1 kleineren Reichweite zu führen. Der Wechsel in die Stellung oder zurück geschieht in einer Freien Aktion.\n\nStufe 3:\n+1 AT\nErlaubt das Manöver Unterlaufen.\n\nStufe 4:\n8 Punkte können zur Verbesserung des Kampfstils verwendet werden.",
+            "boni": [null, null, null, {"skills": 8}]
+        }
+    ]
+}

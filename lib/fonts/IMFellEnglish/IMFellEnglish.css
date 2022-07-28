@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "IMFellEnglish";
+    src:
+        url(./IMFellEnglish-Regular.woff2),
+        url(./IMFellEnglish-Regular.woff);
+}
+
+@font-face {
+    font-family: "IMFellEnglishItalic";
+    src: 
+        url(./IMFellEnglish-Italic.woff2),
+        url(./IMFellEnglish-Italic.woff);
+}

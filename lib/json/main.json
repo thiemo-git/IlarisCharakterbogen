@@ -1,0 +1,235 @@
+{
+    "attributes": [
+        {
+            "name": "Konstitution",
+            "id": "ko",
+            "value": 0
+        },
+        {
+            "name": "Mut",
+            "id": "mu",
+            "value": 0
+        },
+        {
+            "name": "Gewandheit",
+            "id": "ge",
+            "value": 0
+        },
+        {
+            "name": "Körperkraft",
+            "id": "kk",
+            "value": 0
+        },
+        {
+            "name": "Intuition",
+            "id": "in",
+            "value": 0
+        },
+        {
+            "name": "Klugheit",
+            "id": "kl",
+            "value": 0
+        },
+        {
+            "name": "Charisma",
+            "id": "ch",
+            "value": 0
+        },
+        {
+            "name": "Fingerfertigkeit",
+            "id": "ff",
+            "value": 0
+        }
+    ],
+    "skills": [
+        {
+            "name": "Handgemenge",
+            "id": "s01",
+            "fight": true,
+            "factor": 0,
+            "attr1": "mu",
+            "attr2": "ge",
+            "attr3": "kk"
+        },
+        {
+            "name": "Hiebwaffen",
+            "id": "s02",
+            "fight": true,
+            "factor": 0,
+            "attr1": "mu",
+            "attr2": "ge",
+            "attr3": "kk"
+        },
+        {
+            "name": "Klingenwaffen",
+            "id": "s03",
+            "fight": true,
+            "factor": 0,
+            "attr1": "mu",
+            "attr2": "ge",
+            "attr3": "kk"
+        },
+        {
+            "name": "Stangenwaffen",
+            "id": "s04",
+            "fight": true,
+            "factor": 0,
+            "attr1": "mu",
+            "attr2": "ge",
+            "attr3": "kk"
+        },
+        {
+            "name": "Schusswaffen",
+            "id": "s05",
+            "fight": false,
+            "factor": 3,
+            "attr1": "ff",
+            "attr2": "in",
+            "attr3": "kk"
+        },
+        {
+            "name": "Wurfwaffen",
+            "id": "s06",
+            "fight": false,
+            "factor": 2,
+            "attr1": "ff",
+            "attr2": "in",
+            "attr3": "kk"
+        },
+        {
+            "name": "Athletik",
+            "id": "s07",
+            "fight": false,
+            "factor": 3,
+            "attr1": "ge",
+            "attr2": "kk",
+            "attr3": "ko"
+        },
+        {
+            "name": "Heimlichkeit",
+            "id": "s08",
+            "fight": false,
+            "factor": 2,
+            "attr1": "ge",
+            "attr2": "in",
+            "attr3": "mu"
+        },
+        {
+            "name": "Selbstbeherrschung",
+            "id": "s09",
+            "fight": false,
+            "factor": 3,
+            "attr1": "ko",
+            "attr2": "mu",
+            "attr3": "mu"
+        },
+        {
+            "name": "Wahrnehmung",
+            "id": "s10",
+            "fight": false,
+            "factor": 4,
+            "attr1": "in",
+            "attr2": "in",
+            "attr3": "kl"
+        },
+        {
+            "name": "Autorität",
+            "id": "s11",
+            "fight": false,
+            "factor": 3,
+            "attr1": "ch",
+            "attr2": "kl",
+            "attr3": "mu"
+        },
+        {
+            "name": "Beeinflussung",
+            "id": "s12",
+            "fight": false,
+            "factor": 3,
+            "attr1": "ch",
+            "attr2": "ch",
+            "attr3": "in"
+        },
+        {
+            "name": "Gebräuche",
+            "id": "s13",
+            "fight": false,
+            "factor": 2,
+            "attr1": "ch",
+            "attr2": "in",
+            "attr3": "kl"
+        },
+        {
+            "name": "Derekunde",
+            "id": "s14",
+            "fight": false,
+            "factor": 2,
+            "attr1": "ff",
+            "attr2": "in",
+            "attr3": "kl"
+        },
+        {
+            "name": "Magiekunde",
+            "id": "s15",
+            "fight": false,
+            "factor": 2,
+            "attr1": "kl",
+            "attr2": "kl",
+            "attr3": "mu"
+        },
+        {
+            "name": "Mythenkunde",
+            "id": "s16",
+            "fight": false,
+            "factor": 2,
+            "attr1": "in",
+            "attr2": "in",
+            "attr3": "kl"
+        },
+        {
+            "name": "Überleben",
+            "id": "s17",
+            "fight": false,
+            "factor": 3,
+            "attr1": "ge",
+            "attr2": "ff",
+            "attr3": "ko"
+        },
+        {
+            "name": "Alchemie",
+            "id": "s18",
+            "fight": false,
+            "factor": 3,
+            "attr1": "ff",
+            "attr2": "ff",
+            "attr3": "kl"
+        },
+        {
+            "name": "Handwerk",
+            "id": "s19",
+            "fight": false,
+            "factor": 3,
+            "attr1": "ff",
+            "attr2": "ff",
+            "attr3": "kk"
+        },
+        {
+            "name": "Heilkunde",
+            "id": "s20",
+            "fight": false,
+            "factor": 3,
+            "attr1": "ch",
+            "attr2": "ff",
+            "attr3": "kl"
+        },
+        {
+            "name": "Verschlagenheit",
+            "id": "s21",
+            "fight": false,
+            "factor": 2,
+            "attr1": "ff",
+            "attr2": "in",
+            "attr3": "mu"
+        }
+    ]
+}

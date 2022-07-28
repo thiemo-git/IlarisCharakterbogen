@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilaris - Charakterbogen</title>
+    <link rel="stylesheet" href="./lib/fonts/IMFellEnglish/IMFellEnglish.css">
+    <link rel="stylesheet" href="./lib/fonts/IMFellEnglishSC/IMFellEnglishSC.css">
+
+    <link rel="stylesheet" href="./lib/styles/main.css">
+</head>
+<body id="body">
+    <header>
+        <h1 id="characterName" class="header__heading">CharakterName</h1>
+    </header>
+    <div class="schip">
+        <div class="schip__cards">
+            <div class="schip__card">
+                <p class="schip__paragraph">Schip</p>
+                <input id="schip" class="inputField schip__input" type="number">
+            </div>
+            <div class="schip__card">
+                <p class="schip__paragraph">Schip*</p>
+                <input id="schip-m" class="inputField schip__input" type="number">
+            </div>
+        </div>
+    </div>
+    <div class="sections">
+        <section id="character" class="section opened">
+            <div class="section-header">
+                <div class="section-header-flex">
+                    <h2 class="section-heading">
+                        Eigenheiten
+                        <span class="section-header--small"></span>
+                        <span class="section-xp">xp: 0</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="section-content">
+                <div class="character-card">
+                    <label for="race" class="label character-label">
+                        Rasse
+                    </label>
+                    <input id="race" class="inputField character-input" type="text">
+                </div>
+                <div class="character-card">
+                    <label for="status" class="label character-label">
+                        Status
+                    </label>
+                    <input id="status" class="inputField character-input" type="text">
+                </div>
+                <div class="character-card-row">
+                    <label for="description" class="label character-label-row">
+                        Kurzbeschreibung
+                    </label>
+                    <textarea id="description" class="inputField character-textarea" type="text"></textarea>
+                </div>
+                <div class="character__pecularities">
+                    <label class="label">Eigenheiten:</label>
+                    <div id="peculiarities" class="character__pecularities-flex">
+                        <input id="pec1" data-value="" type="text" class="inputField character__pecularities-input">
+                        <input id="pec2" data-value="" type="text" class="inputField character__pecularities-input">
+                        <input id="pec3" data-value="" type="text" class="inputField character__pecularities-input">
+                        <input id="pec4" data-value="" type="text" class="inputField character__pecularities-input">
+                        <input id="pec5" data-value="" type="text" class="inputField character__pecularities-input">
+                        <input id="pec6" data-value="" type="text" class="inputField character__pecularities-input">
+                        <input id="pec7" data-value="" type="text" class="inputField character__pecularities-input">
+                        <input id="pec8" data-value="" type="text" class="inputField character__pecularities-input">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="attributes" class="section opened">
+            <div class="section-header">
+                <div class="section-header-flex">
+                    <h2 class="section-heading">
+                        Attribute
+                        <span class="section-header--small">& abgeleitete Werte</span>
+                        <span id="attributes-xp" class="section-xp">xp: 0</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="section-content">
+                <div class="attributes__flex">
+                    <table class="attributes__table">
+                        <thead>
+                        </thead>
+                        <tbody id="attributes__tbody">
+                            <tr>
+                                <th></th>
+                                <th>Werte</th>
+                                <th>PW</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="attributes__table-values">
+                        <tr></tr>
+                        <tr>
+                            <td>Wundschwelle</td>
+                            <td id="ws">0</td>
+                        </tr>
+                        <tr>
+                            <td>Magieresistenz</td>
+                            <td id="mr">0</td>
+                        </tr>
+                        <tr>
+                            <td>Geschwindigkeit</td>
+                            <td id="gs">0</td>
+                        </tr>
+                        <tr>
+                            <td>Schadensbonus</td>
+                            <td id="sb">0</td>
+                        </tr>
+                        <tr>
+                            <td>Initiative</td>
+                            <td id="ini">0</td>
+                        </tr>
+                        <tr>
+                            <td>Astralenergie</td>
+                            <td id="asp-dv">0</td>
+                        </tr>
+                        <tr>
+                            <td>Karmaenergie</td>
+                            <td id="kap-dv">0</td>
+                        </tr>
+                        <tr>
+                            <td>Gunstpunkte</td>
+                            <td id="gup-dv">0</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="section opened">
+            <div class="section-header">
+                <div class="section-header-flex">
+                    <h2 class="section-heading">
+                        Fertigkeiten
+                        <span class="section-header--small"></span>
+                        <span id="skills-xp" class="section-xp">xp: 0</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="section-content">
+                <table id="skill-list" class="list">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Faktor</th>
+                            <th>Attribute</th>
+                            <th>Basis</th>
+                            <th>FW</th>
+                            <th>Talente</th>
+                            <th>PW</th>
+                            <th>PW(T)</th>
+                        </tr>
+                    </thead>
+                    <tbody id="skill-list-body" class="list__body">
+
+                    </tbody>
+                </table>
+                <button id="skills__self-button" class="button skill-add">
+                    Eigene Fertigkeiten
+                </button>
+            </div>
+        </section>
+        <section id="advantages" class="section opened">
+            <div class="section-header">
+                <div class="section-header-flex">
+                    <h2 class="section-heading">
+                        Vorteile
+                        <span class="section-header--small"></span>
+                        <span id="advantages-xp" class="section-xp">xp: 0</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="section-content">
+                <div class="subsection opened">
+                    <div class="subsection-header">
+                        <div class="subsection-header--flex">
+                            <h3 class="subsection-heading">
+                                Allgemeine Vorteile
+                                <span id="mainAdvantages-xp" class="subsection-xp">xp: 0</span>
+                            </h3>
+                        </div>
+                    </div>
+                    <div id="mainAdvantages-content" class="subsection-content">
+                        <a href="#" id="mainAdvantages-add" class="advantages__add">Vorteil hinzufügen</a>
+                    </div>
+                </div>
+                <div class="subsection opened">
+                    <div class="subsection-header">
+                        <div class="subsection-header--flex">
+                            <h3 class="subsection-heading">
+                                Profane Vorteile
+                                <span id="profanAdvantages-xp" class="subsection-xp">xp: 0</span>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="subsection-content">
+                        <a id="profanAdvantages-add" href="#" class="advantages__add">Vorteil hinzufügen</a>
+                    </div>
+                </div>
+                <div class="subsection opened">
+                    <div class="subsection-header">
+                        <div class="subsection-header--flex">
+                            <h3 class="subsection-heading">
+                                Kampfvorteile
+                                <span id="fightAdvAdvantages-xp" class="subsection-xp">xp: 0</span>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="subsection-content">
+                        <a id="fightAdvAdvantages-add" href="#" class="advantages__add">Vorteil hinzufügen</a>
+                    </div>
+                </div>
+                <div class="subsection opened">
+                    <div class="subsection-header">
+                        <div class="subsection-header--flex">
+                            <h3 class="subsection-heading">
+                                Kampfstile
+                                <span id="fightStyleAdvantages-xp" class="subsection-xp">xp: 0</span>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="subsection-content">
+                        <a href="#" id="fightStyleAdvantages-add" class="advantages__add">Vorteil hinzufügen</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="gear" class="section opened">
+            <div class="section-header">
+                <div class="section-header-flex">
+                    <h2 class="section-heading">
+                        Ausrüstung
+                    </h2>
+                </div>
+            </div>
+            <div class="section-content">
+                <div class="gear__values-container">
+                    <p id="gear-ws">WS*: 0</p>
+                    <p id="gear-dh">dh*: 0</p>
+                </div>
+                <div class="subsections">
+                    <div class="subsection gear__armor opened">
+                        <div class="subsection-header">
+                            <div class="subsection-header--flex">
+                                <h3 class="subsection-heading">
+                                    Rüstung
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="subsection-content">
+                            
+                            <button class="button" id="gear__add-armor">Rüstung hinzufügen</button>
+                        </div>
+                    </div>
+                    <div class="subsection gear__weapons opened">
+                        <div class="subsection-header">
+                            <div class="subsection-header--flex">
+                                <h3 class="subsection-heading">
+                                    Waffen
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="subsection-content">
+                            <button class="button" id="gear__add-weapon">Waffe hinzufügen</button>
+                        </div>
+                    </div>
+                    <div class="subsection gear__inventory opened">
+                        <div class="subsection-header">
+                            <div class="subsection-header--flex">
+                                <h3 class="subsection-heading">
+                                    Inventar
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="subsection-content">
+                            <ul class="gear__inventory-list">
+                                <button class="button" id="gear__inventory-add">Hinzufügen</button>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="supernatural" class="section supernatural opened">
+            <div class="section-header">
+                <div class="section-header-flex">
+                    <h2 class="section-heading">
+                        Übernatürliches
+                        <span id="supernatural-xp" class="section-xp">xp: 0</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="section-content">
+                <div class="supernatural__points">
+                    <div class="supernatural__ap">
+                        <label>AP:</label>
+                        <a id="asp-substr" href="#" class="value-button">-</a>
+                        <span id="supernatural__asp-value">0</span>
+                        <a id="asp-add" href="#" class="value-button">+</a>
+                        <span id="asp-xp" class="mana-xp">xp: 0</span>
+                    </div>
+                    <div class="supernatural__kp">
+                        <label>KP:</label>
+                        <a id="kap-substr" href="#" class="value-button">-</a>
+                        <span id="supernatural__kap-value">0</span>
+                        <a id="kap-add" href="#" class="value-button">+</a>
+                        <span id="kap-xp" class="mana-xp">xp: 0</span>
+                    </div>
+                    <div class="supernatural__gp">
+                        <label>GP:</label>
+                        <a id="gup-substr" href="#" class="value-button">-</a>
+                        <span id="supernatural__gup-value">0</span>
+                        <a id="gup-add" href="#" class="value-button">+</a>
+                        <span id="gup-xp" class="mana-xp">xp: 0</span>
+                    </div>
+                </div>
+                <div class="subsections">
+                    <div class="subsection opened">
+                        <div class="subsection-header">
+                            <div class="subsection-header--flex">
+                                <h3 class="subsection-heading">
+                                    Übernatürliche Vorteile
+                                    <span id="supernatural__advantages-xp" class="subsection-xp">xp: 0</span>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="subsection-content">
+                            <a href="#" id="supernatural__adv-add" class="supernatural__add">Vorteil hinzufügen</a>
+                        </div>
+                    </div>
+                    <div class="subsection opened">
+                        <div class="subsection-header">
+                            <div class="subsection-header--flex">
+                                <h3 class="subsection-heading">
+                                    Übernatürliche Fertigkeiten
+                                    <span id="supernatural__skills-xp" class="subsection-xp">xp: 0</span>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="subsection-content">
+                            <table id="supernatural__skills-list" class="list">
+                                <thead>
+                                    <tr>
+                                        <th>Fertigkeit</th>
+                                        <th>Faktor</th>
+                                        <th>Attribute</th>
+                                        <th>Basis</th>
+                                        <th>FW</th>
+                                        <th>PW</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="supernatural__skills-body" class="list__body">
+
+                                </tbody>
+                            </table>
+                            <a href="#" id="supernatural__skill-edit" class="supernatural__add">Fertigkeiten bearbeiten</a>
+                        </div>
+                    </div>
+                    <div class="subsection opened">
+                        <div class="subsection-header">
+                            <div class="subsection-header--flex">
+                                <h3 class="subsection-heading">
+                                    Übernatürliche Talente
+                                    <span id="supernatural__talents-xp" class="subsection-xp">xp: 0</span>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="subsection-content">
+                            <div id="supernatural__talents">
+                                
+                            </div>
+                            <a href="#" id="supernatural__talent-add" class="supernatural__add">Fertigkeiten bearbeiten</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="xp-footer">
+        <div class="xp-input-container">
+            <label for="xp-input">Gesamt XP:</label>
+            <input id="xp-input" type="number" class="inputField">
+        </div>
+        <p class="xp-paragraph">Verbraucht: <span id="xp-consumed">0</span></p>
+        <p class="xp-paragraph">Verfügbar: <span id="xp-rest">0</span></p>
+    </footer>
+    <script src="./dist/main.js" type="text/javascript"></script>
+
+</body>
+</html>

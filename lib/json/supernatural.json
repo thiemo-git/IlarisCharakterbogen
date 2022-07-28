@@ -1,0 +1,657 @@
+{
+    "mageAdvantages": [
+        {
+            "name": "Bändiger der Elemente",
+            "description": "Bei Elementaren sinkt die Erschwernis für schwierige und anmaßende Dienste (S. 81) um eine Stufe.",
+            "attribute": "ch",
+            "minValue": 4,
+            "xp": 20
+        },
+        {
+            "name": "Meister der Wünsche",
+            "description": "Wann immer ein gebundenes Elementar (S. 81) einen Dienst erfüllt hat, kannst du für die Hälfte der Basisbeschwörungskosten einen zusätzlichen Dienst erbitten.",
+            "attribute": "ch",
+            "minValue": 6,
+            "xp": 40
+        },
+        {
+            "name": "Gefäß der Sterne",
+            "description": "Deine maximale Astralenergie steigt um 4 + CH Punkte. (Solltest du nach dem Erwerb des Vorteils dein CH erhöhen, erhöht das auch deine Astralenergie.)",
+            "attribute": "ch",
+            "minValue": 8,
+            "xp": 60
+        },
+        {
+            "name": "Gebieter der Urgewalten",
+            "description": "Gebundene Elementare (S. 81) kosten nur noch die halben gAsP und eine misslungene Beherrschungsprobe kann einmal für die Hälfte der Beschwörungskosten wiederholt werden.",
+            "attribute": "ch",
+            "minValue": 10,
+            "xp": 80
+        },
+        {
+            "name": "Reaktivierung",
+            "description": "Du kannst wieder aufladbare Artefakte erschaffen und reaktivieren (S. 78).",
+            "attribute": "ff",
+            "minValue": 4,
+            "xp": 20
+        },
+        {
+            "name": "Matrixverständnis",
+            "description": "Der erste wirkende Zauber, der bei der Artefakterschaffung misslingt, darf einmal wiederholt werden. Bei Strukturanalysen (S. 80) erhältst du einen zusätzlichen Analysegrad, wenn der gewertete Würfel eine 12 oder höher zeigt.",
+            "attribute": "ff",
+            "minValue": 6,
+            "xp": 40
+        },
+        {
+            "name": "Semipermanenz",
+            "description": "Du kannst semipermanente Artefakte erschaffen (S. 78).",
+            "attribute": "ff",
+            "minValue": 8,
+            "xp": 60
+        },
+        {
+            "name": "Thaumatrug",
+            "description": "Artefakte kosten nur die halben gAsP. Außerdem können Thaumaturgen weitere Vorteile zur Artefaktherstellung nutzen: Mit Kraftlinienmagie kannst du ortsgebundene Artefakte erschaffen, deren gAsP von der Kraftlinie gespeist werden. Mit Meister der Wünsche/Meister der Seelenlosen kannst du Elementare/Dämonen in Artefakte binden. Beim Auslösen solcher Artefakte ist keine Beherrschungsprobe nötig, solange diese nicht schwieriger wäre als die vom Erschaffer abgelegte Beherrschungsprobe (z.B. durch einen schwierigen Dienst).",
+            "attribute": "ff",
+            "minValue": 10,
+            "xp": 80
+        },
+        {
+            "name": "Unitatio",
+            "description": "Du kannst Zauber gemeinsam mit anderen Kennern des Vorteils wirken (S. 78).",
+            "attribute": "in",
+            "minValue": 4,
+            "xp": 20
+        },
+        {
+            "name": "Flexible Magie",
+            "description": "Während du einen Zauber vorbereitest, kannst dich mit einer Erschwernis von –4 verteidigen.",
+            "attribute": "in",
+            "minValue": 6,
+            "xp": 40
+        },
+        {
+            "name": "Mühelose Magie",
+            "description": "Zeigt der gewertete Würfel bei einem Zauber eine 16 oder höher, erhält der Zauber eine zusätzliche Stufe Mächtige Magie. Außerdem erhältst du die Hälfte der AsP zurück, die du für den Zauber bezahlt hast.",
+            "attribute": "in",
+            "minValue": 8,
+            "xp": 60
+        },
+        {
+            "name": "Flinke Magie",
+            "description": "Einmal pro Initiativphase kannst du eine Zauberprobe in einer Freien Aktion statt einer Aktion Konflikt durchführen.",
+            "attribute": "in",
+            "minValue": 10,
+            "xp": 80
+        },
+        {
+            "name": "Kontrolliertes Zaubern",
+            "description": "Du kannst deine Zauber während ihrer Wirkungsdauer jederzeit beenden.",
+            "attribute": "kl",
+            "minValue": 4,
+            "xp": 20
+        },
+        {
+            "name": "Kraftlinienmagie",
+            "description": "An Kraftlinien oder -knoten sind Zauber mit passenden Fertigkeiten je nach Linienstärke um +2 bis +4 erleichtert und die Regeneration ist um 2–4 AsP erhöht.",
+            "attribute": "kl",
+            "minValue": 6,
+            "xp": 40
+        },
+        {
+            "name": "Effizientes Zaubern",
+            "description": "Ermöglicht die spontane Modifikation Kosten sparen (S. 71).",
+            "attribute": "kl",
+            "minValue": 8,
+            "xp": 60
+        },
+        {
+            "name": "Vorbereitendes Zaubern",
+            "description": "Zwischen dem Vorbereiten eines Zaubers und der Aktion Konflikt dürfen bis zu KL Minuten liegen. Danach gilt der Zauber als fehlgeschlagen. Ein Ziel in Reichweite wird erst in der Aktion Konflikt ausgewählt. Du kannst nur einen Zauber in Vorbereitung halten.",
+            "attribute": "kl",
+            "minValue": 10,
+            "xp": 80
+        },
+        {
+            "name": "Astrale Regeneration",
+            "description": "Du regenerierst 1 zusätzlichen AsP pro Nacht.",
+            "attribute": "ko",
+            "minValue": 4,
+            "xp": 20
+        },
+        {
+            "name": "Verbotene Pforten",
+            "description": "Du kannst mit deiner Lebenskraft zaubern, wenn du über zu wenige AsP verfügst (S. 78).",
+            "attribute": "ko",
+            "minValue": 6,
+            "xp": 40
+        },
+        {
+            "name": "Verbesserte astrale Regeneration",
+            "description": "Du regenerierst 2 weitere, zusätzliche AsP pro Nacht.",
+            "attribute": "ko",
+            "minValue": 8,
+            "xp": 60
+        },
+        {
+            "name": "Meisterliche astrale Regeneration",
+            "description": "Du regenerierst 3 weitere, zusätzliche AsP pro Nacht.",
+            "attribute": "ko",
+            "minValue": 10,
+            "xp": 80
+        },
+        {
+            "name": "Bändiger der Kreaturen",
+            "description": "Du kannst von dir beschworenen unheiligen Wesenheiten (S. 81) zusätzliche Fähigkeiten im Wert von 4 Punkten verleihen.",
+            "attribute": "mu",
+            "minValue": 4,
+            "xp": 20
+        },
+        {
+            "name": "Meister der Seelenlosen",
+            "description": "Wann immer ein gebundenes unheiliges Wesen (S. 81) seinen Dienst erfüllt hat, kannst du für die Hälfte der Basisbeschwörungskosten einen zusätzlichen Dienst erbitten.",
+            "attribute": "mu",
+            "minValue": 6,
+            "xp": 40
+        },
+        {
+            "name": "Blutmagie",
+            "description": "Erlaubt den Einsatz von Blutmagie (S. 78).",
+            "attribute": "mu",
+            "minValue": 8,
+            "xp": 60
+        },
+        {
+            "name": "Gebieter der Finsternis",
+            "description": "Gebundene unheilige Wesenheiten (S. 81) kosten nur noch die halben gAsP und eine misslungene Beschwörungsprobe kann einmal für die Hälfte der Beschwörungskosten wiederholt werden.",
+            "attribute": "mu",
+            "minValue": 10,
+            "xp": 80
+        },
+        {
+            "name": "Tradition der Alchemisten",
+            "tradition": true,
+            "description": "Bedingungen:\nSichtkontakt, Geste, laut gesprochene Zauberformel\n\nStufe 1: Du kannst Zauber in der Tradition der Alchemisten erlernen und benutzen. Solche Zauber findest du unter den allgemeinen Zaubern und unter Schalenzauber (S. 171). Zauber der Fertigkeiten Einfluss, Verwandlung und Eigenschaften können nur in Form von Artefakten oder als „Zutat“ für Tränke verwendet werden.\n\nStufe 2:\nAlchemistische Zauber sind fest in der stofflichen Welt verankert. Die Wirkungsdauer aller Zauber ist verdoppelt.\n\nStufe 3:\nErlaubt die spontane Modifikation Zeit lassen (S. 71).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "mu",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Anach-nûrim",
+            "tradition": true,
+            "description": "Bedingungen:\nSichtkontakt, Geste\n\nStufe 1:\nDu kannst Zauber in der Tradition der Anach-nûrim erlernen und benutzen. Solche Zauber findest du unter Gaben des Blutgeists (S. 159). Wenn du einen Zauber ohne Verbotene Pforten oder Blutmagie wirkst, ist er um -2 erschwert.\n\nStufe 2:\nWenn du einen Zauber mit Verbotenen Pforten oder Blutmagie wirkst, kannst du eine Basismodifikation (z.B. 1x Mächtige Magie) ohne Erschwernis ausführen.\n\nStufe 3:\nErlaubt die spontane Modifikation Erzwingen (S. 71).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "ko",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Borbaradianer",
+            "tradition": true,
+            "description": "Bedingungen:\nGeste, laut gesprochene Zauberformel\n\nDu kannst Zauber in der Tradition der Borbaradianer erlernen und benutzen. Solche Zauber findest du unter den allgemeinen Zaubern; wenn du nicht über ausreichend AsP verfügst, kannst du sie mit deiner Lebenskraft speisen (S. 78). Du kannst den Vorteil auch mit einem Minderpakt (S. 92) erwerben, ohne Zauberer zu sein.\n\nStufe 2:\nBorbaradianische Zauber sind chaotisch und instabil. Du kannst Zauberproben mit 1W20 statt mit 3W20 ablegen. Dadurch verbessern sich deine Chancen bei besonders gewagten Zaubern.\n\nStufe 3:\nErlaubt die spontane Modifikation Erzwingen (S. 71).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden. Du kannst 4 Punkte davon verwenden, um den Minderpakt zu brechen, ohne die borbaradianische Tradition zu verlieren.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "mu",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Derwische",
+            "tradition": true,
+            "description": "Bedingungen:\nSichtkontakt, Trommelspiel, nur Rashtillahgläubige profitieren von Zaubern\n\nStufe 1:\nDu kannst Zauber in der Tradition der Derwische erlernen und benutzen. Solche Zauber findest du unter Trommelrituale (S. 172). Die Bedingung Trommelspiel kann nicht ignoriert werden.\n\nStufe 2:\nDeine Rhythmen sind auf größere Entfernung hörbar. Alle deine Zauber mit dem Ziel Zone wirken auf alle Ziele im Umkreis von 8 Schritt (statt 4 Schritt).\n\nStufe 3:\nErlaubt die spontane Modifikation Opferung (S. 71): Du trommelst bis zur Entkräftung (2 Erschöpfung).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "ff",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Druiden",
+            "tradition": true,
+            "description": "Bedingungen:\nSichtkontakt, Geste, kein Kontakt mit verhüttetem Material\n\nStufe 1:\nDu kannst Zauber in der Tradition der Druiden erlernen und benutzen. Solche Zauber findest du unter den allgemeinen Zaubern und unter Dolchzauber (S. 156). Druidische Zauber können nicht schriftlich weitergegeben werden.\n\nStufe 2:\nDruiden wissen um Orte von besonderer Kraft. Auf Kraftlinien und -knoten, die sich auch in vielen Städten finden, sind alle druidische Zauber und Rituale um 2–4 Punkte erleichtert.\n\nStufe 3:\nErlaubt die spontane Modifikation Erzwingen (S. 71).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "kl",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Durro-Dûn",
+            "tradition": true,
+            "description": "Bedingungen:\nSichtkontakt, Geste\n\nStufe 1:\nDu kannst Zauber in der Tradition der Durro-dûn erlernen und benutzen. Solche Zauber findest du unter Gaben des Odûn (S. 159). Du musst dich beim Erlernen für ein Tier entscheiden (siehe S. 158). Alle deine Zauber beziehen sich auf dieses Tier.\n\nStufe 2:\nErfahrene Durro-dûn rufen die Tiergeister scheinbar mühelos in ihren Körper. Die Kosten aller Zauber, die du auf dich selbst wirkst, sinken um ein Viertel der Basiskosten.\n\nStufe 3:\nErlaubt die spontane Modifikation Opferung (S. 71). Durro-dûn opfern ihr Blut (verursacht 1 Wunde).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "mu",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Elfen",
+            "tradition": true,
+            "description": "Bedingungen:\nSichtkontakt, Geste, gesungene oder gespielte Formel\n\nStufe 1:\nDu kannst Zauber in der Tradition der Elfen erlernen und benutzen. Solche Zauber findest du unter den allgemeinen Zaubern und unter Elfenlieder (S. 158). In Umgebungen mit gestörter Harmonie (z.B. dämonische Verseuchung, Geisterscheinungen) sind Zauber um 2–4 Punkte erschwert.\n\nStufe 2:\nElfen begreifen Magie als alltägliche Unterstützung ihrer Fähigkeiten. Die Wirkungsdauer deiner Zauber, die auf dich selbst wirken, ist verdoppelt.\n\nStufe 3:\nErlaubt die spontane Modifikation Zeit lassen (S. 71).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "in",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Geoden",
+            "tradition": true,
+            "description": "Bedingungen:\nSichtkontakt, Geste, kein Kontakt mit verhüttetem Material\n\nStufe 1:\nDu kannst Zauber in der Tradition der Geoden erlernen und benutzen. Solche Zauber findest du unter den allgemeinen Zaubern, unter Dolchzauber (S. 156), Ringrituale (S. 170) und Vertrautenmagie (S. 173). Du musst dich beim Erlernen für ein bevorzugtes Element entscheiden. Geodische Zauber können nicht schriftlich weitergegeben werden.\n\nStufe 2:\nGeoden gelten als die fähigsten Elementaristen Aventuriens. Wenn du einen Zauber mit deinem bevorzugten Element wirkst, kannst du eine Basismodifikation (z.B. 1x Mächtige Magie) ohne Erschwernis ausführen.\n\nStufe 3:\nErlaubt die spontane Modifikation Zeit lassen (S. 71).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "in",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Gildenmagier",
+            "tradition": true,
+            "description": "Bedingungen:\nSichtkontakt, Geste, laut gesprochene Zauberformel\n\nStufe 1:\nDu kannst Zauber in der Tradition der Gildenmagier erlernen und benutzen. Solche Zauber findest du unter den allgemeinen Zaubern, unter Kugelzauber (S. 169), Schalenzauber (S. 171) und Stabzauber (S. 172). Wenn du beim Vorbereiten eines Zaubers gestört wirst, sind entsprechende Willenskraftproben um zusätzliche –4 erschwert.\n\nStufe 2:\nGildenmagier verstehen die Matrix eines Zaubers und können ihn leichter verändern. Wenn du einen Zauber mit mindestens zwei unterschiedlichen Basismodifikationen wirkst, ist er zusätzlich um +2 erleichtert.\n\nStufe 3:\nErlaubt die spontane Modifikation Zeit lassen (S. 71).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "kl",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Hexen",
+            "tradition": true,
+            "description": "Bedingungen:\nSichtkontakt, Geste, Bodenkontakt\n\nStufe 1:\nDu kannst Zauber in der Tradition der Hexen erlernen und benutzen. Solche Zauber findest du unter den allgemeinen Zaubern, unter Hexenflüche (S. 166), Schalenzauber (S. 171) und Vertrautenmagie (S. 173). Die Komponente Bodenkontakt kann nur ignoriert werden, wenn du zumindest über indirekten Bodenkontakt verfügst (z.B. in einem mehrstöckigen Haus).\n\nStufe 2:\nFür Hexen gehören Gefühle und Magie untrennbar zusammen. Im Zustand besonders starker, zum Zauber passender Emotionen sind Zauber und Rituale um 2–4 Punkte erleichtert.\n\nStufe 3:\nErlaubt die spontane Modifikation Erzwingen (S. 71).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "in",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Hexen",
+            "tradition": true,
+            "description": "Bedingungen:\nSichtkontakt, Geste, Bodenkontakt\n\nStufe 1:\nDu kannst Zauber in der Tradition der Hexen erlernen und benutzen. Solche Zauber findest du unter den allgemeinen Zaubern, unter Hexenflüche (S. 166), Schalenzauber (S. 171) und Vertrautenmagie (S. 173). Die Komponente Bodenkontakt kann nur ignoriert werden, wenn du zumindest über indirekten Bodenkontakt verfügst (z.B. in einem mehrstöckigen Haus).\n\nStufe 2:\nFür Hexen gehören Gefühle und Magie untrennbar zusammen. Im Zustand besonders starker, zum Zauber passender Emotionen sind Zauber und Rituale um 2–4 Punkte erleichtert.\n\nStufe 3:\nErlaubt die spontane Modifikation Erzwingen (S. 71).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "in",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Kristallomanten",
+            "tradition": true,
+            "description": "Bedingungen:\nSichtkontakt, Geste, passender gebundener Kristall (S. 166)\n\nStufe 1:\nDu kannst Zauber in der Tradition der Kristallomanten erlernen und benutzen. Solche Zauber findest du unter den allgemeinen Zaubern und unter Kristallmagie (S. 168). Wenn du einen Zauber mit der Modifikation Vorbereitung verkürzen wirkst, ist er zusätzlich um –2 erschwert.\n\nStufe 2:\nDurch das Studium der Edelsteine gelten Kristallomanten als herausragende Artefaktmagier. Zauber zur Artefakterschaffung und zur magischen Analyse sind um +2 erleichtert.\n\nStufe 3:\nErlaubt die spontane Modifikation Zeit lassen (S. 71).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "kl",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Schamanen",
+            "tradition": true,
+            "description": "Bedingungen:\nSichtkontakt, Geste oder Tanz, gesprochene oder gesungene Formel\n\nStufe 1:\nDu kannst Zauber in der Tradition der Schamanen erlernen und benutzen. Solche Zauber findest du unter Geister d. Stärkung (S. 162), Geister d. Zorns, Geister rufen, Geister vertreiben und Keulenrituale (S. 167). Verärgert der Nutznießer eines positiven schamanischen Zaubers den entsprechenden Geist, endet die Wirkung auf ihn sofort (Spielleiterentscheid).\n\nStufe 2:\nSchamanen binden oft einen beträchtlichen Teil ihrer Astralenergie in ihre Zauber. Wenn du mindestens 2/4/8/16 gAsP gebunden hast, sind deine Zauber um +1/+2/+3/+4 erleichtert.\n\nStufe 3:\nErlaubt die spontane Modifikation Zeremonie (S. 71).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden. Für 4 Punkte davon kannst du die Fähigkeit erlangen, fortan mittels freier Seelenfahrt ins Geisterreich zu reisen und dort verschiedenste Zauberwirkungen hervorzurufen. Solche Reisen sind jedoch stets gefährlich, Details sind Spielleiterentscheid.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "in",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Schamanen",
+            "tradition": true,
+            "description": "Bedingungen:\nSichtkontakt, Geste oder Tanz, gesprochene oder gesungene Formel\n\nStufe 1:\nDu kannst Zauber in der Tradition der Schamanen erlernen und benutzen. Solche Zauber findest du unter Geister d. Stärkung (S. 162), Geister d. Zorns, Geister rufen, Geister vertreiben und Keulenrituale (S. 167). Verärgert der Nutznießer eines positiven schamanischen Zaubers den entsprechenden Geist, endet die Wirkung auf ihn sofort (Spielleiterentscheid).\n\nStufe 2:\nSchamanen binden oft einen beträchtlichen Teil ihrer Astralenergie in ihre Zauber. Wenn du mindestens 2/4/8/16 gAsP gebunden hast, sind deine Zauber um +1/+2/+3/+4 erleichtert.\n\nStufe 3:\nErlaubt die spontane Modifikation Zeremonie (S. 71).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden. Für 4 Punkte davon kannst du die Fähigkeit erlangen, fortan mittels freier Seelenfahrt ins Geisterreich zu reisen und dort verschiedenste Zauberwirkungen hervorzurufen. Solche Reisen sind jedoch stets gefährlich, Details sind Spielleiterentscheid.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "in",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Scharlatane",
+            "tradition": true,
+            "description": "Bedingungen:\nSichtkontakt, Geste, laut gesprochene Zauberformel\n\nStufe 1:\nDu kannst Zauber in der Tradition der Scharlatane erlernen und benutzen. Solche Zauber findest du unter den allgemeinen Zaubern und unter Kugelzauber (S. 169). Zauber mit Basiskosten von 16 AsP oder mehr sind um –2 erschwert.\n\nStufe 2:\nScharlatane sind Meister der Illusionsmagie. Wenn du einen Zauber mit der Fertigkeit Illusion wirkst, kannst du eine Basismodifikation (z.B. 1x Mächtige Magie) ohne Erschwernis ausführen.\n\nStufe 3:\nErlaubt die spontane Modifikation Zeit lassen (S. 71).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "ch",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Schelme",
+            "tradition": true,
+            "description": "Bedingungen:\nSichtkontakt, Geste, Harmlosigkeit\n\nStufe 1:\nDu kannst Zauber in der Tradition der Schelme erlernen und benutzen. Solche Zauber findest du unter den allgemeinen Zaubern. Schelmische Zauber können nicht schriftlich weitergegeben werden.\n\nStufe 2:\nSchelmenmagie umgeht den geistigen Widerstand ihrer Ziele. Wenn ein Zauber gegen die Magieresistenz wirkt, ist er um +2 erleichtert.\n\nStufe 3:\nErlaubt die spontane Modifikation Erzwingen (S. 71).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "in",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Zauberbarden",
+            "tradition": true,
+            "description": "Bedingungen:\nSichtkontakt, Instrumentenspiel, Ziel können dich hören\n\nStufe 1:\nDu kannst Zauber in der Tradition der Zauberbarden erlernen und benutzen. Solche Zauber findest du unter Zaubermelodien (S. 174). Die Bedingung Instrumentenspiel kann nicht ignoriert werden.\n\nStufe 2:\nZauberbarden können ihre Melodie flexibel verändern. Während du einen Zauber mit der Eigenschaft Konzentration (S. 123) aufrechterhältst, kannst du weitere Zauber vorbereiten. (Die Aktion Konflikt ist dennoch nötig und beendet den vorherigen Zauber.)\n\nStufe 3:\nErlaubt die spontane Modifikation Zeit lassen (S. 71).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "ch",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Zaubertänzer",
+            "tradition": true,
+            "description": "Bedingungen:\nSichtkontakt, Tanz, Ziele können dich sehen\n\nStufe 1:\nDu kannst Zauber in der Tradition der Zaubertänzer erlernen und benutzen. Solche Zauber findest du unter Zaubertänze (S. 176). Die Bedingung Tanz kann nicht ignoriert werden.\n\nStufe 2:\nDie Darbietung eines erfahrenen Zaubertänzers hinterlässt einen bleibenden Eindruck. Die Wirkungsdauer aller deiner Zauber ist verdoppelt.\n\nStufe 3:\nErlaubt die spontane Modifikation Opferung (S. 71): Du tanzt mit besonderem Einsatz (2 Erschöpfung).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "ge",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Magiedilettanten",
+            "tradition": true,
+            "description": "Bedingungen:\nSichtkontakt, Tanz, Ziele können dich sehen\n\nStufe 1:\nDu kannst Zauber in der Tradition der Zaubertänzer erlernen und benutzen. Solche Zauber findest du unter Zaubertänze (S. 176). Die Bedingung Tanz kann nicht ignoriert werden.\n\nStufe 2:\nDie Darbietung eines erfahrenen Zaubertänzers hinterlässt einen bleibenden Eindruck. Die Wirkungsdauer aller deiner Zauber ist verdoppelt.\n\nStufe 3:\nErlaubt die spontane Modifikation Opferung (S. 71): Du tanzt mit besonderem Einsatz (2 Erschöpfung).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": null,
+            "attribute": "ge",
+            "minValue": null,
+            "xp": 20,
+            "boni": null
+        }
+    ],
+    "karmaAdvantages": [
+        {
+            "name": "Gemeinschaft der Gläubigen",
+            "description": "Für mindestens 4/8/16/32 Mitbetende ist die Liturgieprobe um +1/2/3/4 erleichtert.",
+            "attribute": "ch",
+            "minValue": 4,
+            "xp": 20
+        },
+        {
+            "name": "Unterstützung der Gläubigen",
+            "description": "Mirakel können auch auf andere Gläubige gewirkt werden. Die Wirkung solcher Mirakel ist halbiert.",
+            "attribute": "ch",
+            "minValue": 6,
+            "xp": 40
+        },
+        {
+            "name": "Aura der Helligkeit",
+            "description": "Gläubige Mitstreiter in einem Radius von 16 Schritt erhalten eine Erleichterung von +1 auf alle Mirakel-Fertigkeiten deiner Gottheit, sowie alle Liturgien. Du selbst profitierst nicht von diesem Bonus.",
+            "attribute": "ch",
+            "minValue": 8,
+            "xp": 60
+        },
+        {
+            "name": "Segnung der Gläubigen",
+            "description": "Liturgien, die ausschließlich gläubige Mitstreiter (und nicht dich selbst) verstärken, kosten nur die halben Basiskosten.",
+            "attribute": "ch",
+            "minValue": 10,
+            "xp": 80
+        },
+        {
+            "name": "Geminsames Wunder",
+            "description": "Du kannst Liturgien gemeinsam mit anderen Kennern dieses Vorteils wirken (wie mit dem Unitatio, siehe S. 72).",
+            "attribute": "in",
+            "minValue": 4,
+            "xp": 20
+        },
+        {
+            "name": "Zuverlässiges Wunder",
+            "description": "Schlägt eine durch ein Mirakel unterstützte Probe fehl, bleibt die Wirkung des Mirakels aufrecht (1x pro Mirakel). Patzer bei solchen Proben gelten nur als gewöhnlich misslungen.",
+            "attribute": "in",
+            "minValue": 6,
+            "xp": 40
+        },
+        {
+            "name": "Beeindruckendes Wunder",
+            "description": "Bei Mirakeln verleiht die Modifikation Mächtige Liturgie einen Bonus von +4 statt +2.",
+            "attribute": "in",
+            "minValue": 8,
+            "xp": 60
+        },
+        {
+            "name": "Göttliche Nähe",
+            "description": "Du regenerierst 1 zusätzlichen KaP pro Nacht.",
+            "attribute": "in",
+            "minValue": 10,
+            "xp": 80
+        },
+        {
+            "name": "Liturgische Routine",
+            "description": "Bei Liturgien gewürfelte Patzer gelten nur als gewöhnlich misslungen.",
+            "attribute": "kl",
+            "minValue": 4,
+            "xp": 20
+        },
+        {
+            "name": "Liturgische Sorgfalt",
+            "description": "Misslungene Liturgien kosten nur ein Viertel der Basiskosten.",
+            "attribute": "kl",
+            "minValue": 6,
+            "xp": 40
+        },
+        {
+            "name": "Liturgische Disziplin",
+            "description": "Ermöglicht die spontane Modifikation Kosten sparen.",
+            "attribute": "kl",
+            "minValue": 8,
+            "xp": 60
+        },
+        {
+            "name": "Liebling der Gottheit",
+            "description": "Zeigt der gewertete Würfel bei einer Liturgie eine 16 oder höher, erhält sie eine zusätzliche Stufe Mächtige Liturgie. Außerdem erhältst du alle KaP zurück, die du für die Liturgie bezahlt hast.",
+            "attribute": "kl",
+            "minValue": 10,
+            "xp": 80
+        },
+        {
+            "name": "Verseuchung erspüren",
+            "description": "Bei Verwendung spürst du die Anwesenheit und die grobe Stärke – nicht aber den genauen Ort – von dämonischen Präsenzen oder Verseuchung in unmittelbarer Nähe. Kostet 1 KaP pro Minute.",
+            "attribute": "mu",
+            "minValue": 4,
+            "xp": 20
+        },
+        {
+            "name": "Gesegnete Waffen",
+            "description": "Waffen in deiner Hand gelten immer als geweiht. Bereits geweihte Waffen verursachen +1W6 TP gegen unheilige Wesen (S. 98).",
+            "attribute": "mu",
+            "minValue": 6,
+            "xp": 40
+        },
+        {
+            "name": "Stärke des Glaubens",
+            "description": "Gegen Angriffe von unheiligen Wesenheiten (S. 98) steigt deine WS um +2.",
+            "attribute": "mu",
+            "minValue": 8,
+            "xp": 60
+        },
+        {
+            "name": "Streiter der Schöpfung",
+            "description": "Alle Proben im Kampf gegen unheilige Wesen (S. 98) sind um +2 erleichtert, Liturgien sogar um +4.",
+            "attribute": "mu",
+            "minValue": 10,
+            "xp": 80
+        },
+        {
+            "name": "Tradition der Avesgeweihten",
+            "tradition": true,
+            "description": "Bedingungen\nSichtkontakt, Geste, Bewegung (mindestens 1 Schritt pro Aktion)\n\nStufe 1:\nDu kannst Liturgien in der Tradition der Avesgeweihten erlernen und benutzen. Solche Liturgien findest du unter den allgemeinen Liturgien, sowie unter Fröhlicher Wanderer und Stiller Wanderer (ab S. 201). Liturgien sind um 2–8 Punkte erschwert, wenn ihr Einsatz gegen die Prinzipien des Geweihten verstößt.\n\nStufe 2:\nAvesgeweihte sind ständig in Bewegung. Wenn du eine Liturgie vorbereitest, kannst du zusätzlich zur Aktion Konzentration die Aktion Bewegung nutzen.\n\nStufe 3:\nErlaubt die spontane Modifikation Opferung (S. 84). Avesgeweihte opfern die Feder eines Zugvogels.\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "mu",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Borongeweihten",
+            "tradition": true,
+            "description": "Bedingungen\nSichtkontakt, Geste, innere Ruhe (unbeeinflusst von aufwühlenden Emotionen wie Leidenschaft, Zorn oder Panik)\n\nStufe 1:\nDu kannst Liturgien in der Tradition der Borongeweihten erlernen und benutzen. Solche Liturgien findest du unter den allgemeinen Liturgien, sowie unter Schlaf, Tod und Vergessen (ab S. 179). Liturgien sind um 2–8 Punkte erschwert, wenn ihr Einsatz gegen die Prinzipien des Geweihten verstößt.\n\nStufe 2:\nBorongeweihte würdigen die Ruhe und das Schweigen. In der Stille sind Liturgien um 2–4 Punkte erleichtert.\n\nStufe 3:\nErlaubt die spontane Modifikation Zeremonie (S. 84).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "kl",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Efferdgeweihten",
+            "tradition": true,
+            "description": "Bedingungen\nSichtkontakt, Geste, gesprochenes oder gesungenes Gebet\n\nStufe 1:\nDu kannst Liturgien in der Tradition der Efferdgeweihten erlernen und benutzen. Solche Liturgien findest du unter den allgemeinen Liturgien, sowie unter Flüsse und Quellen, Seefahrt und Wind und Wogen (ab S. 181). Liturgien sind um 2–8 Punkte erschwert, wenn ihr Einsatz gegen die Prinzipien des Geweihten verstößt.\n\nStufe 2:\nEfferdgeweihte sind so wechselhaft wie das Meer. Im Zustand besonders starker Emotionen sind Liturgien um 2–4 Punkte erleichtert.\n\nStufe 3:\nErlaubt die spontane Modifikation Opferung (S. 84). Efferdgeweihte opfern Perlen oder Gwen-Petryl-Steine.\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "in",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Firundgeweihte",
+            "tradition": true,
+            "description": "Bedingungen\nSichtkontakt, Geste, innere Stärke (unbeeinflusst von Charakterschwächen wie Angst, Jähzorn oder Gier)\n\nStufe 1:\nDu kannst Liturgien in der Tradition der Firungeweihten erlernen und benutzen. Solche Liturgien findest du unter den allgemeinen Liturgien, sowie unter Jagd, Wildnis und Winter (ab S. 184). Liturgien sind um 2–8 Punkte erschwert, wenn ihr Einsatz gegen die Prinzipien des Geweihten verstößt.\n\nStufe 2:\nFirungeweihte sind Einzelgänger. Liturgien, von denen nur sie profitieren, sind um +2 erleichtert.\n\nStufe 3:\nErlaubt die spontane Modifikation Opferung (S. 84). Firungeweihte opfern besondere Beute oder Trophäen.\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "mu",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Hesindgeweihte",
+            "tradition": true,
+            "description": "Bedingungen\nSichtkontakt, Geste, gesprochenes oder gesungenes Gebet\n\nStufe 1:\nDu kannst Liturgien in der Tradition der Hesindegeweihten erlernen und benutzen. Solche Liturgien findest du unter den allgemeinen Liturgien, sowie unter Magie und Wissen (ab S. 187). Liturgien sind um 2–8 Punkte erschwert, wenn ihr Einsatz gegen die Prinzipien des Geweihten verstößt.\n\nStufe 2:\nHesindegeweihte können auch mit mehrfach veränderten Liturgien gut umgehen. Wird eine Liturgie mit mindestens zwei unterschiedlichen Basismodifikationen gewirkt, ist sie zusätzlich um +2 erleichtert.\n\nStufe 3:\nErlaubt die spontane Modifikation Zeremonie (S. 84).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "kl",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Ifirngeweihte",
+            "tradition": true,
+            "description": "Bedingungen\nSichtkontakt, Geste, gesprochenes oder gesungenes Gebet\n\nStufe 1:\nDu kannst Liturgien in der Tradition der Ifirngeweihten erlernen und benutzen. Solche Liturgien findest du unter den allgemeinen Liturgien, sowie unter Jagd und Wildnis (ab S. 184). Liturgien sind um 2–8 Punkte erschwert, wenn ihr Einsatz gegen die Prinzipien des Geweihten verstößt.\n\nStufe 2:\nIfirngeweihte durchstreifen die Lande und helfen denen, die in Not geraten sind. Liturgien, von denen nur andere (aber sie selbst nicht) profitieren, sind um +2 erleichtert.\n\nStufe 3:\nErlaubt die spontane Modifikation Zeremonie (S. 84).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "in",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Ingerimmgeweihten",
+            "tradition": true,
+            "description": "Bedingungen\nSichtkontakt, Geste, gesprochenes oder gesungenes Gebet\n\nStufe 1:\nDu kannst Liturgien in der Tradition der Ingerimmgeweihten erlernen und benutzen. Solche Liturgien findest du unter den allgemeinen Liturgien, sowie unter Hl. Erz, Hl. Feuer und Hl. Handwerk (ab S. 188). Liturgien sind um 2–8 Punkte erschwert, wenn ihr Einsatz gegen die Prinzipien des Geweihten verstößt.\n\nStufe 2:\nIngerimm- und Angroschgeweihte dienen dem Herren des Feuers und des Erzes. Unterirdisch sind alle Liturgien um 2–4 Punkte erleichtert.\n\nStufe 3:\nErlaubt die spontane Modifikation Opferung (S. 84). Ingerimmgeweihte opfern Handwerksgegenstände.\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "ff",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Angroschgeweihten",
+            "tradition": true,
+            "description": "Bedingungen\nSichtkontakt, Geste, gesprochenes oder gesungenes Gebet\n\nStufe 1:\nDu kannst Liturgien in der Tradition der Ingerimmgeweihten erlernen und benutzen. Solche Liturgien findest du unter den allgemeinen Liturgien, sowie unter Hl. Erz, Hl. Feuer und Hl. Handwerk (ab S. 188). Liturgien sind um 2–8 Punkte erschwert, wenn ihr Einsatz gegen die Prinzipien des Geweihten verstößt.\n\nStufe 2:\nIngerimm- und Angroschgeweihte dienen dem Herren des Feuers und des Erzes. Unterirdisch sind alle Liturgien um 2–4 Punkte erleichtert.\n\nStufe 3:\nErlaubt die spontane Modifikation Opferung (S. 84). Ingerimmgeweihte opfern Handwerksgegenstände.\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "ff",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Korgeweihten",
+            "tradition": true,
+            "description": "Bedingungen\nSichtkontakt, Geste, gesprochenes oder gesungenes Gebet\n\nStufe 1:\nDu kannst Liturgien in der Tradition der Korgeweihten erlernen und benutzen. Solche Liturgien findest du unter den allgemeinen Liturgien, sowie unter Guter Kampf und Gutes Gold (ab S. 202). Liturgien sind um 2–8 Punkte erschwert, wenn ihr Einsatz gegen die Prinzipien des Geweihten verstößt.\n\nStufe 2:\nKorgeweihte werden durch erlittene Wunden eher noch gefährlicher. Der Wundabzug schränkt dich beim Wirken von Liturgien nicht ein. Kannst du den Wundabzug ohnehin ignorieren, sind Liturgien um den halben Wundabzug erleichtert.\n\nStufe 3:\nErlaubt die spontane Modifikation Opferung (S. 84). Korgeweihte opfern ihr Blut (verursacht 1 Wunde).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "mu",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Nandusgeweihten",
+            "tradition": true,
+            "description": "Bedingungen\nSichtkontakt, Geste, gesprochenes oder gesungenes Gebet\n\nStufe 1:\nDu kannst Liturgien in der Tradition der Nandusgeweihten erlernen und benutzen. Solche Liturgien findest du unter den allgemeinen Liturgien, sowie unter Wissen (ab S. 187). Liturgien sind um 2–8 Punkte erschwert, wenn ihr Einsatz gegen die Prinzipien des Geweihten verstößt.\n\nStufe 2:\nNandugeweihte wissen, dass Gesten und Worte nur menschliches Beiwerk einer Liturgie sind. Wird eine Liturgie mit der Modifikation Liturgische Technik ignorieren gewirkt, ist sie zusätzlich um +2 erleichtert.\n\nStufe 3:\nErlaubt die spontane Modifikation Opferung (S. 84). Nandusgeweihte opfern falsches oder veraltetes Wissen.\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "kl",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Perainegeweihten",
+            "tradition": true,
+            "description": "Bedingungen\nSichtkontakt, Geste, gesprochenes oder gesungenes Gebet\n\nStufe 1:\nDu kannst Liturgien in der Tradition der Perainegeweihten erlernen und benutzen. Solche Liturgien findest du unter den allgemeinen Liturgien, sowie unter Heilung und Wachstum (ab S. 191). Liturgien sind um 2–8 Punkte erschwert, wenn ihr Einsatz gegen die Prinzipien des Geweihten verstößt.\n\nStufe 2:\nPerainegeweihte sind oft das Herz der Gemeinschaft. Wird eine Liturgie mit der Modifikation Mehrere Ziele gesprochen, ist sie zusätzlich um +2 erleichtert.\n\nStufe 3:\nErlaubt die spontane Modifikation Zeremonie (S. 84).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "ch",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Phexgeweihten",
+            "tradition": true,
+            "description": "Bedingungen\nSichtkontakt, Geste, (symbolische) Gegenleistung an Phex\n\nStufe 1:\nDu kannst Liturgien in der Tradition der Phexgeweihten erlernen und benutzen. Solche Liturgien findest du unter den allgemeinen Liturgien, sowie unter Abu al‘Mada, List und Nächtlicher Schatten (ab S. 192). Liturgien sind um 2–8 Punkte erschwert, wenn ihr Einsatz gegen die Prinzipien des Geweihten verstößt.\n\nStufe 2:\nPhexgeweihte vertrauen auf ihr Können, aber manchmal auch auf ihr Glück. Statt mit 3W20 kannst du Proben beim Wirken von Liturgien auch mit 1W20 ablegen. Dadurch verbessern sich deine Chancen bei besonders gewagten Liturgien.\n\nStufe 3:\nErlaubt die spontane Modifikation Opferung (S. 84). Phexgeweihte opfern einen wertvollen Besitz.\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "in",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Praiosgeweihten",
+            "tradition": true,
+            "description": "Bedingungen\nSichtkontakt, Geste, gesprochenes oder gesungenes Gebet\n\nStufe 1:\nDu kannst Liturgien in der Tradition der Praiosgeweihten erlernen und benutzen. Solche Liturgien findest du unter den allgemeinen Liturgien, sowie unter Licht, Magiebann und Ordnung (ab S. 193). Liturgien sind um 2–8 Punkte erschwert, wenn ihr Einsatz gegen die Prinzipien des Geweihten verstößt.\n\nStufe 2:\nPraiosgeweihte erkennen in der Sonne ihren Gott. Im Sonnenlicht sind Liturgien um 2–4 Punkte erleichtert.\n\nStufe 3:\nErlaubt die spontane Modifikation Zeremonie (S. 84).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "ch",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Rahjageweihte",
+            "tradition": true,
+            "description": "Bedingungen\nSichtkontakt, Geste, Zärtlichkeit dem Ziel gegenüber oder Gebet\n\nStufe 1:\nDu kannst Liturgien in der Tradition der Rahjageweihten erlernen und benutzen. Solche Liturgien findest du unter den allgemeinen Liturgien, sowie unter Harmonie und Rausch (ab S. 195). Liturgien sind um 2–8 Punkte erschwert, wenn ihr Einsatz gegen die Prinzipien des Geweihten verstößt.\n\nStufe 2:\nRahjgeweihte schätzen den Rausch, egal ob durch Alkohol, Sex, Tanz, einen Ausritt oder schieren Nervenkitzel. In berauschtem Zustand sind Liturgien um 2-4 Punkte erleichtert.\n\nStufe 3:\nErlaubt die spontane Modifikation Opferung (S. 84). Rahjgeweihte opfern den heiligen Wein Tharf.\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "ch",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Rondrageweihten",
+            "tradition": true,
+            "description": "Bedingungen\nSichtkontakt, Geste, gesprochenes oder gesungenes Gebet\n\nStufe 1:\nDu kannst Liturgien in der Tradition der Rondrageweihten erlernen und benutzen. Solche Liturgien findest du unter den allgemeinen Liturgien, sowie unter Ehre, Heerführung und Schutz der Gläubigen (ab S. 197). Liturgien sind um 2–8 Punkte erschwert, wenn ihr Einsatz gegen die Prinzipien des Geweihten verstößt.\n\nStufe 2:\nRondrageweihte geben auch in der düstersten Stunde nicht auf. Der Wundabzug schränkt dich beim Wirken von Liturgien nicht ein. Kannst du den Wundabzug ohnehin ignorieren, sind Liturgien um den halben Wundabzug erleichtert.\n\nStufe 3:\nErlaubt die spontane Modifikation Opferung (S. 84). Rondrageweihte opfern ihr Blut (verursacht 1 Wunde).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "mu",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Swafnirgeweihten",
+            "tradition": true,
+            "description": "Bedingungen\nSichtkontakt, Geste, gesprochenes oder gesungenes Gebet\n\nStufe 1:\nDu kannst Liturgien in der Tradition der Swafnirgeweihten erlernen und benutzen. Solche Liturgien findest du unter den allgemeinen Liturgien, sowie unter Seefahrt und Wind und Wogen (S. 182). Liturgien sind um 2–8 Punkte erschwert, wenn ihr Einsatz gegen die Prinzipien des Geweihten verstößt.\n\nStufe 2:\nSwafnirgeweihte begleiten und unterstützen ihre Gefährten auf ihren Fahrten. Auf See sind Liturgien um 2–4 Punkte erleichtert.\n\nStufe 3:\nErlaubt die spontane Modifikation Opferung (S. 84). Swafnirgeweihte opfern ihr Blut (verursacht 1 Wunde).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "mu",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Traviageweihten",
+            "tradition": true,
+            "description": "Bedingungen\nSichtkontakt, Geste, gesprochenes oder gesungenes Gebet\n\nStufe 1:\nDu kannst Liturgien in der Tradition der Traviageweihten erlernen und benutzen. Solche Liturgien findest du unter den allgemeinen Liturgien, sowie unter Heim und Herd und Sichere Heimkehr (ab S. 199). Liturgien sind um 2–8 Punkte erschwert, wenn ihr Einsatz gegen die Prinzipien des Geweihten verstößt.\n\nStufe 2:\nTraviageweihte schätzen Treue und Beständigkeit. Wird eine Liturgie mit der Modifikation Wirkungsdauer verlängern gewirkt, ist sie zusätzlich um +2 erleichtert.\n\nStufe 3:\nErlaubt die spontane Modifikation Zeremonie (S. 84).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "ch",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        },
+        {
+            "name": "Tradition der Tsageweihten",
+            "tradition": true,
+            "description": "Bedingungen\nSichtkontakt, Geste, gesprochenes oder gesungenes Gebet\n\nStufe 1:\nDu kannst Liturgien in der Tradition der Tsageweihten erlernen und benutzen. Solche Liturgien findest du unter den allgemeinen Liturgien, sowie unter Friede und Neubeginn (ab S. 200). Liturgien sind um 2–8 Punkte erschwert, wenn ihr Einsatz gegen die Prinzipien des Geweihten verstößt.\n\nStufe 2:\nTsageweihte sind schnell, entschlossen und spontan. Wird eine Liturgie mit der Modifikation Vorbereitungszeit verkürzen gewirkt, ist sie zusätzlich um +2 erleichtert.\n\nStufe 3:\nErlaubt die spontane Modifikation Zeremonie (S. 84).\n\nStufe 4:\n8 Punkte können zur Verbesserung der Tradition verwendet werden.",
+            "level": ["I", "II", "III", "IV"],
+            "attribute": "in",
+            "minValue": [4, 6, 8, 10],
+            "xp": [20, 60, 120, 200],
+            "boni": [null, null, null, {"skill": 8}]
+        }
+    ],
+    "demonAdvantages": []
+}
